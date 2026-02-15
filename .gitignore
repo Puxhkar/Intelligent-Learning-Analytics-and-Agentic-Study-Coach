@@ -1,0 +1,55 @@
+# Node components
+node_modules/
+npm-debug.log*
+yarn-debug.log*
+yarn-error.log*
+.pnpm-debug.log*
+
+# Environment variables
+.env
+.env.local
+.env.*.local
+
+# Build outputs
+dist/
+dist-ssr/
+build/
+*.local
+
+# Python components
+__pycache__/
+*.py[cod]
+*$py.class
+.venv/
+venv/
+ENV/
+env/
+.Python
+build/
+develop-eggs/
+downloads/
+eggs/
+.eggs/
+lib/
+lib64/
+parts/
+sdist/
+var/
+wheels/
+*.egg-info/
+.installed.cfg
+*.egg
+
+# OS files
+.DS_Store
+.DS_Store?
+._*
+Thumbe.db
+ehthumbs.db
+
+# Project specific
+backend/uploads/*
+!backend/uploads/.gitkeep
+test_mock_students.csv
+*.csv
+*.log
