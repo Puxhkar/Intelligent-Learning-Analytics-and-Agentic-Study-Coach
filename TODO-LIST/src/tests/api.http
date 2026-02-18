@@ -1,0 +1,31 @@
+@baseUrl = http://localhost:4000/api/v1
+
+### Create Todo
+POST {{baseUrl}}/todos
+Content-Type: application/json
+
+{
+  "title": "Learn OOP in Node.js",
+  "description": "Implement repository pattern",
+  "status": "pending",
+  "priority": "high",
+  "tags": ["coding", "node"]
+}
+
+### Get All Todos (Pagination + Sorting)
+GET {{baseUrl}}/todos?page=1&limit=5&sort=-createdAt
+
+### Get Todo by ID
+# Replace :id with actual ID from previous response
+GET {{baseUrl}}/todos/:id
+
+### Update Todo
+PUT {{baseUrl}}/todos/:id
+Content-Type: application/json
+
+{
+  "status": "completed"
+}
+
+### Delete Todo
+DELETE {{baseUrl}}/todos/:id
