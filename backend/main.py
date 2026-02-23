@@ -10,9 +10,10 @@ load_dotenv()
 
 app = FastAPI(title="Learning Analytics Risk Predictor")
 
-# Allow CORS for React frontend
-frontend_url = os.getenv("FRONTEND_URL", "http://localhost:3000")
-origins = [url.strip().rstrip("/") for url in frontend_url.split(",")]
+origins = [
+    "http://localhost:3000",
+    "https://intelligent-learning-analytics-and.vercel.app"
+]
 
 app.add_middleware(
     CORSMiddleware,
