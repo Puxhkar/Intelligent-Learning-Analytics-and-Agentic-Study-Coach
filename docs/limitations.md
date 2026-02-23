@@ -16,3 +16,4 @@ The engine analyzes student metrics algorithmically as discrete snapshots. A stu
 
 ## 5. No Advanced Explainability
 While the system provides rule-based heuristic "insights", the mathematical classification confidence (e.g., "82% Confidence") lacks comprehensive explainable AI structures (such as SHAP values or LIME implementations). The system does not computationally surface exactly *which* parameter contributed identically to the probabilistic derivation, slightly obfuscating the mathematical root cause for non-technical educators.
+

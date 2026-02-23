@@ -14,7 +14,8 @@ function App() {
         setResults(null);
 
         try {
-            const response = await fetch('http://localhost:8000/predict-risk', {
+            const apiUrl = import.meta.env.VITE_API_BASE_URL || 'http://localhost:8000';
+            const response = await fetch(`${apiUrl}/predict-risk`, {
                 method: 'POST',
                 headers: {
                     'Content-Type': 'application/json'
