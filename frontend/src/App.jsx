@@ -14,7 +14,10 @@ function App() {
         setResults(null);
 
         try {
-            const apiUrl = import.meta.env.VITE_API_BASE_URL || 'http://localhost:8000';
+            let apiUrl = import.meta.env.VITE_API_BASE_URL || 'http://localhost:8000';
+            if (apiUrl.endsWith('/')) {
+                apiUrl = apiUrl.slice(0, -1);
+            }
             const response = await fetch(`${apiUrl}/predict-risk`, {
                 method: 'POST',
                 headers: {

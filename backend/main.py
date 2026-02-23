@@ -12,7 +12,7 @@ app = FastAPI(title="Learning Analytics Risk Predictor")
 
 # Allow CORS for React frontend
 frontend_url = os.getenv("FRONTEND_URL", "http://localhost:3000")
-origins = [url.strip() for url in frontend_url.split(",")]
+origins = [url.strip().rstrip("/") for url in frontend_url.split(",")]
 
 app.add_middleware(
     CORSMiddleware,
