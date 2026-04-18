@@ -46,4 +46,37 @@ export default function HomePage() {
     setHydrated(true);
   }, []);
 
-  
+function handleLogout() {
+    api("/api/auth/logout", { method: "POST" }).catch(() => {});
+    clearStoredSession();
+    setUser(null);
+  }
+
+  return (
+    <main className="landing-shell">
+      <div className="graph-paper" />
+      <div className="landing-container">
+        <nav className="landing-nav">
+          <Link href="/" className="landing-brand">
+            <ProjectLogo className="w-10 h-10" />
+            <span>ResearchPilot x AskMyNotes</span>
+          </Link>
+
+          {/* Render nothing until after hydration to avoid SSR/localStorage flash */}
+          {hydrated && (
+            <div className="landing-nav-actions">
+              {user ? (
+                <>
+                  <span className="landing-user-chip">👋 {user.name}</span>
+                  <Link href="/research" className="sketch-btn primary">Go to Workspace</Link>
+                  <button className="sketch-btn secondary" onClick={handleLogout}>Sign Out</button>
+                </>
+              ) : (
+                <>
+                  <Link href="/login" className="sketch-btn secondary">Sign In</Link>
+                  <Link href="/register" className="sketch-btn primary">Open Workspace</Link>
+                </>
+              )}
+            </div>
+          )}
+        </nav>
