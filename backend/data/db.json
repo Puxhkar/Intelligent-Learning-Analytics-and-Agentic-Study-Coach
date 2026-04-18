@@ -1,0 +1,1416 @@
+{
+  "users": [
+    {
+      "id": "user_1776455113089_xwazfg",
+      "name": "Test User",
+      "email": "testuser@example.com",
+      "password": "secret123",
+      "createdAt": "2026-04-17T19:45:13.089Z"
+    },
+    {
+      "id": "d401f3e3-a0ad-4c41-8ac3-ef60ed86c1e9",
+      "name": "Fresh User",
+      "email": "fresh3@example.com",
+      "password": "secret123",
+      "createdAt": "2026-04-17T19:46:07.234Z"
+    },
+    {
+      "id": "51f133f0-f5db-4c73-ab80-c67298b96711",
+      "name": "Jatin Bisen",
+      "email": "jatinbisen18@gmail.com",
+      "password": "test_1234",
+      "createdAt": "2026-04-17T19:52:13.162Z"
+    },
+    {
+      "id": "997ec4ed-8ea3-41c8-b134-f4dcb942123a",
+      "name": "Push",
+      "email": "push@gmail.com",
+      "password": "123456",
+      "createdAt": "2026-04-18T07:22:28.821Z"
+    },
+    {
+      "id": "0eb1111e-a7d8-4a08-b28d-68f34e25eefe",
+      "name": "atulit krishna",
+      "email": "krishnaatul14@gmail.com",
+      "password": "Mejustatul@9",
+      "createdAt": "2026-04-18T15:37:55.101Z"
+    }
+  ],
+  "sessions": [
+    {
+      "id": "2d9a817e-edd9-4d56-9823-c49dc5c3d03c",
+      "userId": "d401f3e3-a0ad-4c41-8ac3-ef60ed86c1e9",
+      "token": "ff7fc9e9-dc13-4193-9925-15ebe70f76b0",
+      "createdAt": "2026-04-17T19:46:07.235Z",
+      "expiresAt": "2026-04-24T19:46:07.235Z"
+    },
+    {
+      "id": "1f361277-3094-4ef8-85b7-1bfa3e3e5704",
+      "userId": "d401f3e3-a0ad-4c41-8ac3-ef60ed86c1e9",
+      "token": "f2e0f25b-29d8-49a9-b925-95560a845f63",
+      "createdAt": "2026-04-17T19:46:19.083Z",
+      "expiresAt": "2026-04-24T19:46:19.083Z"
+    },
+    {
+      "id": "e7dd8340-d8e3-479b-8a52-bc119dd1f02f",
+      "userId": "d401f3e3-a0ad-4c41-8ac3-ef60ed86c1e9",
+      "token": "4ef1bc64-16de-42cb-96bb-f4948d541205",
+      "createdAt": "2026-04-17T19:46:19.084Z",
+      "expiresAt": "2026-04-24T19:46:19.084Z"
+    },
+    {
+      "id": "076e67ad-5c18-4c2f-adcd-51eb82d94b95",
+      "userId": "d401f3e3-a0ad-4c41-8ac3-ef60ed86c1e9",
+      "token": "13686d79-f06b-4542-895e-2504a47b6283",
+      "createdAt": "2026-04-17T19:46:35.523Z",
+      "expiresAt": "2026-04-24T19:46:35.523Z"
+    },
+    {
+      "id": "5f3c45a9-27ad-42ad-9b64-3ab0be1c1a05",
+      "userId": "d401f3e3-a0ad-4c41-8ac3-ef60ed86c1e9",
+      "token": "b01a536c-95df-4c50-91e5-89c66264d0ad",
+      "createdAt": "2026-04-17T19:46:35.524Z",
+      "expiresAt": "2026-04-24T19:46:35.524Z"
+    },
+    {
+      "id": "135de8d9-c1bf-4f43-ae6f-b12ac122e011",
+      "userId": "d401f3e3-a0ad-4c41-8ac3-ef60ed86c1e9",
+      "token": "2e83c804-884c-4c52-930c-e6f167c8a67f",
+      "createdAt": "2026-04-17T19:46:46.706Z",
+      "expiresAt": "2026-04-24T19:46:46.706Z"
+    },
+    {
+      "id": "30bda160-7e69-4952-9e8f-76350dc3d79d",
+      "userId": "d401f3e3-a0ad-4c41-8ac3-ef60ed86c1e9",
+      "token": "9e154bbc-1b6e-45ac-b401-2360b44da50d",
+      "createdAt": "2026-04-17T19:47:02.184Z",
+      "expiresAt": "2026-04-24T19:47:02.184Z"
+    },
+    {
+      "id": "49c80359-4b88-4af9-a50a-ce1442b1d3bd",
+      "userId": "d401f3e3-a0ad-4c41-8ac3-ef60ed86c1e9",
+      "token": "7163eb5b-8248-42c4-90e3-bf15237589bd",
+      "createdAt": "2026-04-17T19:47:07.871Z",
+      "expiresAt": "2026-04-24T19:47:07.871Z"
+    },
+    {
+      "id": "62ad3476-4e8e-48fd-bead-6aaaad109963",
+      "userId": "user_1776455113089_xwazfg",
+      "token": "36160775-5324-42fa-9876-d85232aa43c3",
+      "createdAt": "2026-04-17T21:13:28.482Z",
+      "expiresAt": "2026-04-24T21:13:28.482Z"
+    },
+    {
+      "id": "388bf4b1-2f47-4717-843f-be92e8ecb607",
+      "userId": "user_1776455113089_xwazfg",
+      "token": "82b16a81-b4cb-43a4-b0a2-d5b7fbd35bdf",
+      "createdAt": "2026-04-17T22:04:26.548Z",
+      "expiresAt": "2026-04-24T22:04:26.548Z"
+    },
+    {
+      "id": "30af7684-dce8-4828-b2e0-08d66d2ae5cf",
+      "userId": "0eb1111e-a7d8-4a08-b28d-68f34e25eefe",
+      "token": "0ecd04c4-7ca1-4ac0-bb08-7273986f112b",
+      "createdAt": "2026-04-18T15:37:55.101Z",
+      "expiresAt": "2026-04-25T15:37:55.101Z"
+    }
+  ],
+  "subjects": [
+    {
+      "id": "1e655443-6e23-41ab-91d1-9f245d2daa32",
+      "userId": "d401f3e3-a0ad-4c41-8ac3-ef60ed86c1e9",
+      "name": "Operating Systems",
+      "description": "Notes for OS revision",
+      "accent": "#F4B8BF",
+      "files": [
+        {
+          "id": "04d42411-4e20-4b61-a2ec-27faddf32cf5",
+          "fileName": "notes-os-2.txt",
+          "mimeType": "text/plain",
+          "content": "Virtual memory, paging, and context switching are operating systems topics.",
+          "summary": "Virtual memory, paging, and context switching are operating systems topics.",
+          "uploadedAt": "2026-04-17T19:47:02.221Z",
+          "pageCount": null,
+          "byteSize": 75
+        }
+      ],
+      "createdAt": "2026-04-17T19:46:19.128Z",
+      "lastUpdatedAt": "2026-04-17T19:47:02.221Z"
+    },
+    {
+      "id": "d9da5464-d445-447a-b661-2a982c25889e",
+      "userId": "51f133f0-f5db-4c73-ab80-c67298b96711",
+      "name": "AI_ML",
+      "description": "artificial intelligence and Machine learning",
+      "accent": "#F4B8BF",
+      "files": [
+        {
+          "id": "ddfde5e3-9fda-4fa9-b206-9b022b22936a",
+          "fileName": "Knight_Capital_Case_Study (1).pdf",
+          "mimeType": "application/pdf",
+          "content": "CASE STUDY REPORT\nThe Knight Capital $440 Million Bug\nHow a Single Deployment Mistake Destroyed a Firm in 45 Minutes\n$440M\nLost in 45 Minutes\nAug 1, 2012\nDate of Incident\n45 Minutes\nDuration of Trading\n~150\nStocks\nNYSE Equities Affected\nPrepared by:Engineering Case Study Series\nTopic:System Failure and Engineering Decisions\nIncident:Knight Capital Group - SMARS Algorithm Failure\nReport Date:August 1, 2012 | Impact: $440 Million\nTABLE OF CONTENTS\n1. Executive Summary\n2. Background - Who Was Knight Capital?\n3. What Happened (The Incident)\n4. Timeline of Events\n5. Why and How It Happened (Root Cause Analysis)\n6. How It Was Solved (Response and Recovery)\n7. Key Learnings and Engineering Takeaways\n8. Before vs. After Comparison\n9. Conclusion and References\n\n1.  EXECUTIVE SUMMARY\nOn  August  1,  2012,  Knight  Capital  Group  -  one  of  the  largest  U.S.  equity  market  makers  -  lost\n$440 million in just 45 minutes due to a botched software deployment. A single legacy code path\nwas  accidentally  reactivated  during  an  update  rollout,  causing  Knight's  trading  systems  to  fire\nmillions of erroneous stock orders. The company, which had taken decades to build, was brought\nto the brink of bankruptcy in less than an hour. This case study dissects the technical failure, the\norganizational breakdown, and the crucial engineering lessons every software team must learn.\n2.  BACKGROUND - WHO WAS KNIGHT CAPITAL?\nKnight Capital Group was founded in 1995 and grew to become a powerhouse in U.S. equity trading.\nBy  2012,  it  was  one  of  the  largest  market  makers  on  the  NYSE  and  NASDAQ,  handling\napproximately 11% of all U.S. equity trading volume - roughly $21 billion in daily trades. The firm\noperated  a  high-frequency  trading  (HFT)  system  that  executed  thousands  of  trades  per  second.\nSpeed and automation were its core competitive advantage. Its trading infrastructure was a complex\npatchwork  of  old  and  new  systems  built  up  over  many  years,  which  would  prove  to  be  its  fatal\nweakness.\nFounded1995\nDaily VolumeApproximately $21 Billion\nMarket ShareApproximately 11% of all U.S. equity volume\nEmployeesApproximately 1,400 staff\nExchange RoleOne of the largest designated market makers on NYSE and NASDAQ\n3.  WHAT HAPPENED - THE INCIDENT\nThe Setup: A New NYSE Program\nIn  late  July  2012,  the  New  York  Stock  Exchange  launched  a  new  Retail  Liquidity  Program  (RLP).\nKnight Capital needed to update its trading software to participate. Engineers prepared a new version\nof their Smart Market Access Routing System (SMARS).\nThe Fatal Deployment\nThe new code was deployed to 7 of 8 production servers. One server was missed - a human error\nduring  a  manual  deployment  process.  The  8th  server  still  ran  an  old,  dormant  code  path  known\ninternally as 'Power of the Knight' (POWK). This legacy routine had previously been used for testing\npurposes. Engineers had repurposed its activation flag for new functionality in the updated code, not\nrealising the old routine could still fire on any server that had not received the update.\n\nMarket Opens - Chaos Begins\nWhen the market opened at 9:30 AM EST on August 1, 2012, trade orders began routing through all\n8 servers. On 7 servers the new code handled orders correctly. On the 8th server the recycled flag\ntriggered  the  old  POWK  routine,  which  had  no  order  size  limit  and  no  automated  kill  switch.  It\nbegan buying stocks and immediately reselling them at a loss, repeatedly, for every incoming order.\nWithin minutes Knight Capital was losing approximately $10 million per minute.\nImpact at a Glance\nStocks affectedApproximately 150 NYSE-listed stocks\nErroneous ordersApproximately 4 million orders sent\nShares tradedApproximately 397 million shares bought and sold\nTotal financial loss$440 million in 45 minutes\nKnight's net capital$365 million before the incident\nOutcomeLoss exceeded the firm's entire net capital\n\n4.  TIMELINE OF EVENTS\nJuly 27, 2012NYSE announces Retail Liquidity Program (RLP). Knight Capital begins updating the\nSMARS codebase.\nJuly 31, 2012Engineers deploy new SMARS code to production. One of 8 servers is skipped during\nthe manual rollout; the omission goes undetected.\nAug 1 - 9:30 AMNYSE market opens. Incoming orders route to all 8 servers simultaneously. The\nunpatched server activates the legacy POWK routine.\n9:31 - 9:45 AMPOWK fires on every order with no size limits. Approximately $10 million per minute in\nlosses begins accumulating. Unusual price swings appear across ~150 stocks.\n9:45 AMKnight's operations team notices anomalous behaviour. Internal alerts trigger.\nEngineers begin scrambling to identify the source.\n~10:00 AMAfter roughly 30 minutes of diagnosis, engineers locate the rogue server and shut it\ndown manually.\n10:15 AMAll erroneous trading halted. Total damage confirmed at $440 million - a loss larger\nthan the firm's entire net capital.\nAug 2-3, 2012Knight publicly discloses the loss. Its stock price falls more than 70%. The firm faces\nimmediate insolvency.\nAug 6, 2012Emergency $400 million rescue investment led by Jefferies, TD Ameritrade,\nBlackstone, GETCO, Stephens, and Stifel Financial is announced.\nDecember 2012Knight Capital agrees to merge with GETCO LLC. The combined entity becomes KCG\nHoldings.\n5.  WHY AND HOW IT HAPPENED - ROOT CAUSE ANALYSIS\n1\nManual Deployment Process\nThe deployment to 8 servers was performed entirely by hand with no automated\nverification step to confirm that every server had received the update. A single missed\nserver went undetected until it was too late.\n2\nRecycled Feature Flag\nThe POWK legacy code was dormant but had never been removed from the codebase.\nEngineers reused its activation flag for new functionality in the updated code, not realising\nthat the old routine would still be triggered on any server that had not been patched.\n\n3\nNo Dead Code Removal Policy\nKnight Capital had no standard practice for deleting or disabling unused code paths. Old\nroutines accumulated in the system for years, creating hidden execution paths that could\nbe activated by accident.\n4\nNo Automated Kill Switch\nThe erroneous routine had no automated circuit-breaker, no order-count limit, and no\ndollar-value ceiling. It could run indefinitely without stopping itself - a fundamental design\nflaw in any automated trading system.\n5\nIncomplete Pre-Deployment Testing\nThere was no staging environment that exactly mirrored all 8 production servers. Testing\nwas performed on a subset of infrastructure, which meant the specific failure mode -\nrunning only on the unpatched server - was never detected.\n6\nSlow Incident Response\nIt took approximately 30 to 45 minutes from the first anomaly alert to actually shutting\ndown the rogue process. The absence of a clear incident runbook and a one-button kill\nswitch meant that minutes of diagnosis turned into hundreds of millions in losses.\n\n6.  HOW IT WAS SOLVED - RESPONSE AND RECOVERY\nImmediate Technical Response\nOnce  the  rogue  server  was  identified,  engineers  manually  shut  it  down,  stopping  the  flow  of\nerroneous orders. Knight then worked with the NYSE to partially unwind some positions, but the vast\nmajority  of  the  $440  million  loss  was  irreversible  -  the  market  had  already  moved  against  Knight's\naccumulated holdings.\nFinancial Rescue\nWith  its  net  capital  wiped  out,  Knight  Capital  faced  immediate  insolvency.  A  consortium  of  financial\nfirms stepped in with an emergency $400 million investment on August 6, 2012, just five days after\nthe incident. Investors included Jefferies, TD Ameritrade, Blackstone, GETCO, Stephens, and Stifel\nFinancial. The rescue kept Knight alive but resulted in massive dilution for existing shareholders.\nPost-Incident Engineering Changes\n- Automated deployment scripts replaced all manual server update procedures.\n- Mandatory post-deployment verification confirmed every server received the update before traffic\nwas routed.\n- All legacy dead code was immediately audited and removed from production systems.\n- Automated circuit-breakers with hard order-count and dollar-value limits were added to every trading\nroutine.\n- A full production-mirror staging environment was established before any future live deployment.\n- Documented incident response runbooks with pre-assigned roles and a one-button kill switch were\nimplemented.\n7.  KEY LEARNINGS AND ENGINEERING TAKEAWAYS\n1\nAutomate All Deployments - No Exceptions\nManual deployment is a human error waiting to happen. Any rollout touching more than\none server must be automated with atomic guarantees. CI/CD pipelines must verify\n100% of nodes before marking a deployment complete.\n2\nDelete Dead Code Aggressively\nUnused code is not harmless - it is a liability and a hidden execution path that can be\ntriggered by accident. Feature flags, old routines, and deprecated paths must be\nremoved as a normal part of the development lifecycle.\n\n3\nNever Recycle Feature Flags\nReusing a configuration flag for a new purpose while old code that reads the same flag\nstill exists is extremely dangerous. Flags must be unique, properly named, documented,\nand audited before any reuse.\n4\nBuild Automated Kill Switches\nAny automated system capable of taking irreversible financial or operational actions must\nhave hard limits, timeouts, and circuit-breakers. Systems must be able to stop\nthemselves - never rely solely on human intervention in a fast-moving crisis.\n5\nTest Against a Full Production Mirror\nA staging environment is only useful if it exactly matches production. Testing on a subset\nof servers will miss failures that only appear across the full fleet. A production-identical\nstaging environment is non-negotiable for critical systems.\n6\nDefine and Drill Incident Response\nThe 30-plus minutes needed to identify and halt the rogue process was catastrophic.\nEvery team running critical systems must maintain a written runbook, assign roles in\nadvance, and run regular drills so that response time in a real incident is measured in\nseconds.\n7\nMonitor Business Metrics Alongside Technical Metrics\nEngineers were watching system health indicators but not real-time profit and loss. A\nmonitoring layer that watches dollar-value exposure and order-volume anomalies would\nhave triggered an alert within the first 60 seconds. Business-layer monitoring must\ncomplement infrastructure monitoring in any financially critical system.\n\n8.  BEFORE vs. AFTER COMPARISON\nAreaBefore (August 2012)After (Post-Incident)\nDeploymentManual, server-by-serverAutomated CI/CD with full verification\nDead CodeAccumulated over many yearsRegular audits and a removal policy\nFeature FlagsRecycled without auditUnique, documented, version-controlled\nCircuit BreakersNone on any trading routineHard order and dollar limits on all jobs\nTestingPartial server subset onlyFull production-mirror staging\nenvironment\nIncident\nResponse\nAd hoc, no runbook, no drillDocumented runbook, drilled, under 60s\nresponse\nMonitoringInfrastructure health onlyBusiness + infrastructure anomaly\ndetection\n9.  CONCLUSION\nThe Knight Capital disaster is one of the most important case studies in software engineering history.\nIt  was  not  a  sophisticated  cyberattack,  a  natural  disaster,  or  an  unforeseeable  black-swan  event.  It\nwas  a  chain  of  entirely  preventable  engineering  failures:  a  manual  deployment  process,  forgotten\ndead code, a recycled configuration flag, and an automated system with no off-switch.\nA firm that took 17 years to build was functionally destroyed in 45 minutes. The $440 million loss was\nnot caused by a rogue actor or adverse market conditions - it was caused by the slow accumulation\nof small, deferred engineering decisions that finally converged into a single catastrophic event.\nFor  every  software  engineer,  tech  lead,  and  engineering  manager,  the  message  is  unambiguous:\ntechnical  debt  is  real  debt.  Cutting  corners  on  deployment  automation,  dead  code  hygiene,\ntesting  environments,  and  incident  response  planning  is  not  moving  fast  -  it  is  borrowing\nagainst a bill that will eventually come due. Knight Capital paid that bill in full, all at once.\n\"Knight  Capital  did  not  fail  because  of  a  rogue  engineer  or  an  unsolvable  problem.  It  failed\nbecause of deferred decisions, absent automation, and a culture that tolerated technical risk - until\nthe risk became reality.\"\nReferences and Further Reading\n- SEC Administrative Proceeding - In the Matter of Knight Capital Americas LLC (October 16, 2013).\n- Patterson, S. (2012). Knight Capital's $440 Million Loss. The Wall Street Journal.\n\n- Nanex Research - Knight Capital Erroneous Trades Analysis (August 2012).\n- Levine, M. (2012). Knight Capital Is Going to Have a Bad Week. Bloomberg Opinion.\n- Popper, N. (2012). Knight Capital Says Trading Glitch Cost It $440 Million. The New York Times.\n- SEC Release No. 34-70694 - Knight Capital Americas LLC Settlement Order.",
+          "summary": "CASE STUDY REPORT The Knight Capital $440 Million Bug How a Single Deployment Mistake Destroyed a Firm in 45 Minutes $440M Lost in 45 Minutes Aug 1, 2012 Date of Incident 45 Minutes Duration of Trading ~150 Stocks NYSE E",
+          "uploadedAt": "2026-04-18T06:53:09.979Z",
+          "pageCount": 9,
+          "byteSize": 20744
+        },
+        {
+          "id": "536bec18-3414-45c1-a078-773369e061a6",
+          "fileName": "Knight_Capital_Case_Study (1).pdf",
+          "mimeType": "application/pdf",
+          "content": "CASE STUDY REPORT\nThe Knight Capital $440 Million Bug\nHow a Single Deployment Mistake Destroyed a Firm in 45 Minutes\n$440M\nLost in 45 Minutes\nAug 1, 2012\nDate of Incident\n45 Minutes\nDuration of Trading\n~150\nStocks\nNYSE Equities Affected\nPrepared by:Engineering Case Study Series\nTopic:System Failure and Engineering Decisions\nIncident:Knight Capital Group - SMARS Algorithm Failure\nReport Date:August 1, 2012 | Impact: $440 Million\nTABLE OF CONTENTS\n1. Executive Summary\n2. Background - Who Was Knight Capital?\n3. What Happened (The Incident)\n4. Timeline of Events\n5. Why and How It Happened (Root Cause Analysis)\n6. How It Was Solved (Response and Recovery)\n7. Key Learnings and Engineering Takeaways\n8. Before vs. After Comparison\n9. Conclusion and References\n\n1.  EXECUTIVE SUMMARY\nOn  August  1,  2012,  Knight  Capital  Group  -  one  of  the  largest  U.S.  equity  market  makers  -  lost\n$440 million in just 45 minutes due to a botched software deployment. A single legacy code path\nwas  accidentally  reactivated  during  an  update  rollout,  causing  Knight's  trading  systems  to  fire\nmillions of erroneous stock orders. The company, which had taken decades to build, was brought\nto the brink of bankruptcy in less than an hour. This case study dissects the technical failure, the\norganizational breakdown, and the crucial engineering lessons every software team must learn.\n2.  BACKGROUND - WHO WAS KNIGHT CAPITAL?\nKnight Capital Group was founded in 1995 and grew to become a powerhouse in U.S. equity trading.\nBy  2012,  it  was  one  of  the  largest  market  makers  on  the  NYSE  and  NASDAQ,  handling\napproximately 11% of all U.S. equity trading volume - roughly $21 billion in daily trades. The firm\noperated  a  high-frequency  trading  (HFT)  system  that  executed  thousands  of  trades  per  second.\nSpeed and automation were its core competitive advantage. Its trading infrastructure was a complex\npatchwork  of  old  and  new  systems  built  up  over  many  years,  which  would  prove  to  be  its  fatal\nweakness.\nFounded1995\nDaily VolumeApproximately $21 Billion\nMarket ShareApproximately 11% of all U.S. equity volume\nEmployeesApproximately 1,400 staff\nExchange RoleOne of the largest designated market makers on NYSE and NASDAQ\n3.  WHAT HAPPENED - THE INCIDENT\nThe Setup: A New NYSE Program\nIn  late  July  2012,  the  New  York  Stock  Exchange  launched  a  new  Retail  Liquidity  Program  (RLP).\nKnight Capital needed to update its trading software to participate. Engineers prepared a new version\nof their Smart Market Access Routing System (SMARS).\nThe Fatal Deployment\nThe new code was deployed to 7 of 8 production servers. One server was missed - a human error\nduring  a  manual  deployment  process.  The  8th  server  still  ran  an  old,  dormant  code  path  known\ninternally as 'Power of the Knight' (POWK). This legacy routine had previously been used for testing\npurposes. Engineers had repurposed its activation flag for new functionality in the updated code, not\nrealising the old routine could still fire on any server that had not received the update.\n\nMarket Opens - Chaos Begins\nWhen the market opened at 9:30 AM EST on August 1, 2012, trade orders began routing through all\n8 servers. On 7 servers the new code handled orders correctly. On the 8th server the recycled flag\ntriggered  the  old  POWK  routine,  which  had  no  order  size  limit  and  no  automated  kill  switch.  It\nbegan buying stocks and immediately reselling them at a loss, repeatedly, for every incoming order.\nWithin minutes Knight Capital was losing approximately $10 million per minute.\nImpact at a Glance\nStocks affectedApproximately 150 NYSE-listed stocks\nErroneous ordersApproximately 4 million orders sent\nShares tradedApproximately 397 million shares bought and sold\nTotal financial loss$440 million in 45 minutes\nKnight's net capital$365 million before the incident\nOutcomeLoss exceeded the firm's entire net capital\n\n4.  TIMELINE OF EVENTS\nJuly 27, 2012NYSE announces Retail Liquidity Program (RLP). Knight Capital begins updating the\nSMARS codebase.\nJuly 31, 2012Engineers deploy new SMARS code to production. One of 8 servers is skipped during\nthe manual rollout; the omission goes undetected.\nAug 1 - 9:30 AMNYSE market opens. Incoming orders route to all 8 servers simultaneously. The\nunpatched server activates the legacy POWK routine.\n9:31 - 9:45 AMPOWK fires on every order with no size limits. Approximately $10 million per minute in\nlosses begins accumulating. Unusual price swings appear across ~150 stocks.\n9:45 AMKnight's operations team notices anomalous behaviour. Internal alerts trigger.\nEngineers begin scrambling to identify the source.\n~10:00 AMAfter roughly 30 minutes of diagnosis, engineers locate the rogue server and shut it\ndown manually.\n10:15 AMAll erroneous trading halted. Total damage confirmed at $440 million - a loss larger\nthan the firm's entire net capital.\nAug 2-3, 2012Knight publicly discloses the loss. Its stock price falls more than 70%. The firm faces\nimmediate insolvency.\nAug 6, 2012Emergency $400 million rescue investment led by Jefferies, TD Ameritrade,\nBlackstone, GETCO, Stephens, and Stifel Financial is announced.\nDecember 2012Knight Capital agrees to merge with GETCO LLC. The combined entity becomes KCG\nHoldings.\n5.  WHY AND HOW IT HAPPENED - ROOT CAUSE ANALYSIS\n1\nManual Deployment Process\nThe deployment to 8 servers was performed entirely by hand with no automated\nverification step to confirm that every server had received the update. A single missed\nserver went undetected until it was too late.\n2\nRecycled Feature Flag\nThe POWK legacy code was dormant but had never been removed from the codebase.\nEngineers reused its activation flag for new functionality in the updated code, not realising\nthat the old routine would still be triggered on any server that had not been patched.\n\n3\nNo Dead Code Removal Policy\nKnight Capital had no standard practice for deleting or disabling unused code paths. Old\nroutines accumulated in the system for years, creating hidden execution paths that could\nbe activated by accident.\n4\nNo Automated Kill Switch\nThe erroneous routine had no automated circuit-breaker, no order-count limit, and no\ndollar-value ceiling. It could run indefinitely without stopping itself - a fundamental design\nflaw in any automated trading system.\n5\nIncomplete Pre-Deployment Testing\nThere was no staging environment that exactly mirrored all 8 production servers. Testing\nwas performed on a subset of infrastructure, which meant the specific failure mode -\nrunning only on the unpatched server - was never detected.\n6\nSlow Incident Response\nIt took approximately 30 to 45 minutes from the first anomaly alert to actually shutting\ndown the rogue process. The absence of a clear incident runbook and a one-button kill\nswitch meant that minutes of diagnosis turned into hundreds of millions in losses.\n\n6.  HOW IT WAS SOLVED - RESPONSE AND RECOVERY\nImmediate Technical Response\nOnce  the  rogue  server  was  identified,  engineers  manually  shut  it  down,  stopping  the  flow  of\nerroneous orders. Knight then worked with the NYSE to partially unwind some positions, but the vast\nmajority  of  the  $440  million  loss  was  irreversible  -  the  market  had  already  moved  against  Knight's\naccumulated holdings.\nFinancial Rescue\nWith  its  net  capital  wiped  out,  Knight  Capital  faced  immediate  insolvency.  A  consortium  of  financial\nfirms stepped in with an emergency $400 million investment on August 6, 2012, just five days after\nthe incident. Investors included Jefferies, TD Ameritrade, Blackstone, GETCO, Stephens, and Stifel\nFinancial. The rescue kept Knight alive but resulted in massive dilution for existing shareholders.\nPost-Incident Engineering Changes\n- Automated deployment scripts replaced all manual server update procedures.\n- Mandatory post-deployment verification confirmed every server received the update before traffic\nwas routed.\n- All legacy dead code was immediately audited and removed from production systems.\n- Automated circuit-breakers with hard order-count and dollar-value limits were added to every trading\nroutine.\n- A full production-mirror staging environment was established before any future live deployment.\n- Documented incident response runbooks with pre-assigned roles and a one-button kill switch were\nimplemented.\n7.  KEY LEARNINGS AND ENGINEERING TAKEAWAYS\n1\nAutomate All Deployments - No Exceptions\nManual deployment is a human error waiting to happen. Any rollout touching more than\none server must be automated with atomic guarantees. CI/CD pipelines must verify\n100% of nodes before marking a deployment complete.\n2\nDelete Dead Code Aggressively\nUnused code is not harmless - it is a liability and a hidden execution path that can be\ntriggered by accident. Feature flags, old routines, and deprecated paths must be\nremoved as a normal part of the development lifecycle.\n\n3\nNever Recycle Feature Flags\nReusing a configuration flag for a new purpose while old code that reads the same flag\nstill exists is extremely dangerous. Flags must be unique, properly named, documented,\nand audited before any reuse.\n4\nBuild Automated Kill Switches\nAny automated system capable of taking irreversible financial or operational actions must\nhave hard limits, timeouts, and circuit-breakers. Systems must be able to stop\nthemselves - never rely solely on human intervention in a fast-moving crisis.\n5\nTest Against a Full Production Mirror\nA staging environment is only useful if it exactly matches production. Testing on a subset\nof servers will miss failures that only appear across the full fleet. A production-identical\nstaging environment is non-negotiable for critical systems.\n6\nDefine and Drill Incident Response\nThe 30-plus minutes needed to identify and halt the rogue process was catastrophic.\nEvery team running critical systems must maintain a written runbook, assign roles in\nadvance, and run regular drills so that response time in a real incident is measured in\nseconds.\n7\nMonitor Business Metrics Alongside Technical Metrics\nEngineers were watching system health indicators but not real-time profit and loss. A\nmonitoring layer that watches dollar-value exposure and order-volume anomalies would\nhave triggered an alert within the first 60 seconds. Business-layer monitoring must\ncomplement infrastructure monitoring in any financially critical system.\n\n8.  BEFORE vs. AFTER COMPARISON\nAreaBefore (August 2012)After (Post-Incident)\nDeploymentManual, server-by-serverAutomated CI/CD with full verification\nDead CodeAccumulated over many yearsRegular audits and a removal policy\nFeature FlagsRecycled without auditUnique, documented, version-controlled\nCircuit BreakersNone on any trading routineHard order and dollar limits on all jobs\nTestingPartial server subset onlyFull production-mirror staging\nenvironment\nIncident\nResponse\nAd hoc, no runbook, no drillDocumented runbook, drilled, under 60s\nresponse\nMonitoringInfrastructure health onlyBusiness + infrastructure anomaly\ndetection\n9.  CONCLUSION\nThe Knight Capital disaster is one of the most important case studies in software engineering history.\nIt  was  not  a  sophisticated  cyberattack,  a  natural  disaster,  or  an  unforeseeable  black-swan  event.  It\nwas  a  chain  of  entirely  preventable  engineering  failures:  a  manual  deployment  process,  forgotten\ndead code, a recycled configuration flag, and an automated system with no off-switch.\nA firm that took 17 years to build was functionally destroyed in 45 minutes. The $440 million loss was\nnot caused by a rogue actor or adverse market conditions - it was caused by the slow accumulation\nof small, deferred engineering decisions that finally converged into a single catastrophic event.\nFor  every  software  engineer,  tech  lead,  and  engineering  manager,  the  message  is  unambiguous:\ntechnical  debt  is  real  debt.  Cutting  corners  on  deployment  automation,  dead  code  hygiene,\ntesting  environments,  and  incident  response  planning  is  not  moving  fast  -  it  is  borrowing\nagainst a bill that will eventually come due. Knight Capital paid that bill in full, all at once.\n\"Knight  Capital  did  not  fail  because  of  a  rogue  engineer  or  an  unsolvable  problem.  It  failed\nbecause of deferred decisions, absent automation, and a culture that tolerated technical risk - until\nthe risk became reality.\"\nReferences and Further Reading\n- SEC Administrative Proceeding - In the Matter of Knight Capital Americas LLC (October 16, 2013).\n- Patterson, S. (2012). Knight Capital's $440 Million Loss. The Wall Street Journal.\n\n- Nanex Research - Knight Capital Erroneous Trades Analysis (August 2012).\n- Levine, M. (2012). Knight Capital Is Going to Have a Bad Week. Bloomberg Opinion.\n- Popper, N. (2012). Knight Capital Says Trading Glitch Cost It $440 Million. The New York Times.\n- SEC Release No. 34-70694 - Knight Capital Americas LLC Settlement Order.",
+          "summary": "CASE STUDY REPORT The Knight Capital $440 Million Bug How a Single Deployment Mistake Destroyed a Firm in 45 Minutes $440M Lost in 45 Minutes Aug 1, 2012 Date of Incident 45 Minutes Duration of Trading ~150 Stocks NYSE E",
+          "uploadedAt": "2026-04-18T06:55:42.550Z",
+          "pageCount": 9,
+          "byteSize": 20744
+        },
+        {
+          "id": "5843b1e5-51d1-4bd3-9856-83d8cf9ace49",
+          "fileName": "Knight_Capital_Case_Study (1).pdf",
+          "mimeType": "application/pdf",
+          "content": "CASE STUDY REPORT\nThe Knight Capital $440 Million Bug\nHow a Single Deployment Mistake Destroyed a Firm in 45 Minutes\n$440M\nLost in 45 Minutes\nAug 1, 2012\nDate of Incident\n45 Minutes\nDuration of Trading\n~150\nStocks\nNYSE Equities Affected\nPrepared by:Engineering Case Study Series\nTopic:System Failure and Engineering Decisions\nIncident:Knight Capital Group - SMARS Algorithm Failure\nReport Date:August 1, 2012 | Impact: $440 Million\nTABLE OF CONTENTS\n1. Executive Summary\n2. Background - Who Was Knight Capital?\n3. What Happened (The Incident)\n4. Timeline of Events\n5. Why and How It Happened (Root Cause Analysis)\n6. How It Was Solved (Response and Recovery)\n7. Key Learnings and Engineering Takeaways\n8. Before vs. After Comparison\n9. Conclusion and References\n\n1.  EXECUTIVE SUMMARY\nOn  August  1,  2012,  Knight  Capital  Group  -  one  of  the  largest  U.S.  equity  market  makers  -  lost\n$440 million in just 45 minutes due to a botched software deployment. A single legacy code path\nwas  accidentally  reactivated  during  an  update  rollout,  causing  Knight's  trading  systems  to  fire\nmillions of erroneous stock orders. The company, which had taken decades to build, was brought\nto the brink of bankruptcy in less than an hour. This case study dissects the technical failure, the\norganizational breakdown, and the crucial engineering lessons every software team must learn.\n2.  BACKGROUND - WHO WAS KNIGHT CAPITAL?\nKnight Capital Group was founded in 1995 and grew to become a powerhouse in U.S. equity trading.\nBy  2012,  it  was  one  of  the  largest  market  makers  on  the  NYSE  and  NASDAQ,  handling\napproximately 11% of all U.S. equity trading volume - roughly $21 billion in daily trades. The firm\noperated  a  high-frequency  trading  (HFT)  system  that  executed  thousands  of  trades  per  second.\nSpeed and automation were its core competitive advantage. Its trading infrastructure was a complex\npatchwork  of  old  and  new  systems  built  up  over  many  years,  which  would  prove  to  be  its  fatal\nweakness.\nFounded1995\nDaily VolumeApproximately $21 Billion\nMarket ShareApproximately 11% of all U.S. equity volume\nEmployeesApproximately 1,400 staff\nExchange RoleOne of the largest designated market makers on NYSE and NASDAQ\n3.  WHAT HAPPENED - THE INCIDENT\nThe Setup: A New NYSE Program\nIn  late  July  2012,  the  New  York  Stock  Exchange  launched  a  new  Retail  Liquidity  Program  (RLP).\nKnight Capital needed to update its trading software to participate. Engineers prepared a new version\nof their Smart Market Access Routing System (SMARS).\nThe Fatal Deployment\nThe new code was deployed to 7 of 8 production servers. One server was missed - a human error\nduring  a  manual  deployment  process.  The  8th  server  still  ran  an  old,  dormant  code  path  known\ninternally as 'Power of the Knight' (POWK). This legacy routine had previously been used for testing\npurposes. Engineers had repurposed its activation flag for new functionality in the updated code, not\nrealising the old routine could still fire on any server that had not received the update.\n\nMarket Opens - Chaos Begins\nWhen the market opened at 9:30 AM EST on August 1, 2012, trade orders began routing through all\n8 servers. On 7 servers the new code handled orders correctly. On the 8th server the recycled flag\ntriggered  the  old  POWK  routine,  which  had  no  order  size  limit  and  no  automated  kill  switch.  It\nbegan buying stocks and immediately reselling them at a loss, repeatedly, for every incoming order.\nWithin minutes Knight Capital was losing approximately $10 million per minute.\nImpact at a Glance\nStocks affectedApproximately 150 NYSE-listed stocks\nErroneous ordersApproximately 4 million orders sent\nShares tradedApproximately 397 million shares bought and sold\nTotal financial loss$440 million in 45 minutes\nKnight's net capital$365 million before the incident\nOutcomeLoss exceeded the firm's entire net capital\n\n4.  TIMELINE OF EVENTS\nJuly 27, 2012NYSE announces Retail Liquidity Program (RLP). Knight Capital begins updating the\nSMARS codebase.\nJuly 31, 2012Engineers deploy new SMARS code to production. One of 8 servers is skipped during\nthe manual rollout; the omission goes undetected.\nAug 1 - 9:30 AMNYSE market opens. Incoming orders route to all 8 servers simultaneously. The\nunpatched server activates the legacy POWK routine.\n9:31 - 9:45 AMPOWK fires on every order with no size limits. Approximately $10 million per minute in\nlosses begins accumulating. Unusual price swings appear across ~150 stocks.\n9:45 AMKnight's operations team notices anomalous behaviour. Internal alerts trigger.\nEngineers begin scrambling to identify the source.\n~10:00 AMAfter roughly 30 minutes of diagnosis, engineers locate the rogue server and shut it\ndown manually.\n10:15 AMAll erroneous trading halted. Total damage confirmed at $440 million - a loss larger\nthan the firm's entire net capital.\nAug 2-3, 2012Knight publicly discloses the loss. Its stock price falls more than 70%. The firm faces\nimmediate insolvency.\nAug 6, 2012Emergency $400 million rescue investment led by Jefferies, TD Ameritrade,\nBlackstone, GETCO, Stephens, and Stifel Financial is announced.\nDecember 2012Knight Capital agrees to merge with GETCO LLC. The combined entity becomes KCG\nHoldings.\n5.  WHY AND HOW IT HAPPENED - ROOT CAUSE ANALYSIS\n1\nManual Deployment Process\nThe deployment to 8 servers was performed entirely by hand with no automated\nverification step to confirm that every server had received the update. A single missed\nserver went undetected until it was too late.\n2\nRecycled Feature Flag\nThe POWK legacy code was dormant but had never been removed from the codebase.\nEngineers reused its activation flag for new functionality in the updated code, not realising\nthat the old routine would still be triggered on any server that had not been patched.\n\n3\nNo Dead Code Removal Policy\nKnight Capital had no standard practice for deleting or disabling unused code paths. Old\nroutines accumulated in the system for years, creating hidden execution paths that could\nbe activated by accident.\n4\nNo Automated Kill Switch\nThe erroneous routine had no automated circuit-breaker, no order-count limit, and no\ndollar-value ceiling. It could run indefinitely without stopping itself - a fundamental design\nflaw in any automated trading system.\n5\nIncomplete Pre-Deployment Testing\nThere was no staging environment that exactly mirrored all 8 production servers. Testing\nwas performed on a subset of infrastructure, which meant the specific failure mode -\nrunning only on the unpatched server - was never detected.\n6\nSlow Incident Response\nIt took approximately 30 to 45 minutes from the first anomaly alert to actually shutting\ndown the rogue process. The absence of a clear incident runbook and a one-button kill\nswitch meant that minutes of diagnosis turned into hundreds of millions in losses.\n\n6.  HOW IT WAS SOLVED - RESPONSE AND RECOVERY\nImmediate Technical Response\nOnce  the  rogue  server  was  identified,  engineers  manually  shut  it  down,  stopping  the  flow  of\nerroneous orders. Knight then worked with the NYSE to partially unwind some positions, but the vast\nmajority  of  the  $440  million  loss  was  irreversible  -  the  market  had  already  moved  against  Knight's\naccumulated holdings.\nFinancial Rescue\nWith  its  net  capital  wiped  out,  Knight  Capital  faced  immediate  insolvency.  A  consortium  of  financial\nfirms stepped in with an emergency $400 million investment on August 6, 2012, just five days after\nthe incident. Investors included Jefferies, TD Ameritrade, Blackstone, GETCO, Stephens, and Stifel\nFinancial. The rescue kept Knight alive but resulted in massive dilution for existing shareholders.\nPost-Incident Engineering Changes\n- Automated deployment scripts replaced all manual server update procedures.\n- Mandatory post-deployment verification confirmed every server received the update before traffic\nwas routed.\n- All legacy dead code was immediately audited and removed from production systems.\n- Automated circuit-breakers with hard order-count and dollar-value limits were added to every trading\nroutine.\n- A full production-mirror staging environment was established before any future live deployment.\n- Documented incident response runbooks with pre-assigned roles and a one-button kill switch were\nimplemented.\n7.  KEY LEARNINGS AND ENGINEERING TAKEAWAYS\n1\nAutomate All Deployments - No Exceptions\nManual deployment is a human error waiting to happen. Any rollout touching more than\none server must be automated with atomic guarantees. CI/CD pipelines must verify\n100% of nodes before marking a deployment complete.\n2\nDelete Dead Code Aggressively\nUnused code is not harmless - it is a liability and a hidden execution path that can be\ntriggered by accident. Feature flags, old routines, and deprecated paths must be\nremoved as a normal part of the development lifecycle.\n\n3\nNever Recycle Feature Flags\nReusing a configuration flag for a new purpose while old code that reads the same flag\nstill exists is extremely dangerous. Flags must be unique, properly named, documented,\nand audited before any reuse.\n4\nBuild Automated Kill Switches\nAny automated system capable of taking irreversible financial or operational actions must\nhave hard limits, timeouts, and circuit-breakers. Systems must be able to stop\nthemselves - never rely solely on human intervention in a fast-moving crisis.\n5\nTest Against a Full Production Mirror\nA staging environment is only useful if it exactly matches production. Testing on a subset\nof servers will miss failures that only appear across the full fleet. A production-identical\nstaging environment is non-negotiable for critical systems.\n6\nDefine and Drill Incident Response\nThe 30-plus minutes needed to identify and halt the rogue process was catastrophic.\nEvery team running critical systems must maintain a written runbook, assign roles in\nadvance, and run regular drills so that response time in a real incident is measured in\nseconds.\n7\nMonitor Business Metrics Alongside Technical Metrics\nEngineers were watching system health indicators but not real-time profit and loss. A\nmonitoring layer that watches dollar-value exposure and order-volume anomalies would\nhave triggered an alert within the first 60 seconds. Business-layer monitoring must\ncomplement infrastructure monitoring in any financially critical system.\n\n8.  BEFORE vs. AFTER COMPARISON\nAreaBefore (August 2012)After (Post-Incident)\nDeploymentManual, server-by-serverAutomated CI/CD with full verification\nDead CodeAccumulated over many yearsRegular audits and a removal policy\nFeature FlagsRecycled without auditUnique, documented, version-controlled\nCircuit BreakersNone on any trading routineHard order and dollar limits on all jobs\nTestingPartial server subset onlyFull production-mirror staging\nenvironment\nIncident\nResponse\nAd hoc, no runbook, no drillDocumented runbook, drilled, under 60s\nresponse\nMonitoringInfrastructure health onlyBusiness + infrastructure anomaly\ndetection\n9.  CONCLUSION\nThe Knight Capital disaster is one of the most important case studies in software engineering history.\nIt  was  not  a  sophisticated  cyberattack,  a  natural  disaster,  or  an  unforeseeable  black-swan  event.  It\nwas  a  chain  of  entirely  preventable  engineering  failures:  a  manual  deployment  process,  forgotten\ndead code, a recycled configuration flag, and an automated system with no off-switch.\nA firm that took 17 years to build was functionally destroyed in 45 minutes. The $440 million loss was\nnot caused by a rogue actor or adverse market conditions - it was caused by the slow accumulation\nof small, deferred engineering decisions that finally converged into a single catastrophic event.\nFor  every  software  engineer,  tech  lead,  and  engineering  manager,  the  message  is  unambiguous:\ntechnical  debt  is  real  debt.  Cutting  corners  on  deployment  automation,  dead  code  hygiene,\ntesting  environments,  and  incident  response  planning  is  not  moving  fast  -  it  is  borrowing\nagainst a bill that will eventually come due. Knight Capital paid that bill in full, all at once.\n\"Knight  Capital  did  not  fail  because  of  a  rogue  engineer  or  an  unsolvable  problem.  It  failed\nbecause of deferred decisions, absent automation, and a culture that tolerated technical risk - until\nthe risk became reality.\"\nReferences and Further Reading\n- SEC Administrative Proceeding - In the Matter of Knight Capital Americas LLC (October 16, 2013).\n- Patterson, S. (2012). Knight Capital's $440 Million Loss. The Wall Street Journal.\n\n- Nanex Research - Knight Capital Erroneous Trades Analysis (August 2012).\n- Levine, M. (2012). Knight Capital Is Going to Have a Bad Week. Bloomberg Opinion.\n- Popper, N. (2012). Knight Capital Says Trading Glitch Cost It $440 Million. The New York Times.\n- SEC Release No. 34-70694 - Knight Capital Americas LLC Settlement Order.",
+          "summary": "On August 1, 2012, Knight Capital Group lost $440 million in just 45 minutes due to a botched software deployment that accidentally reactivated a legacy trading algorithm on one server. This single error caused the system to fire millions of erroneous stock orders, leading to massive financial losses that exceeded the firm's net capital. The incident brought Knight Capital to the brink of bankruptcy, necessitating a $400 million emergency investment and prompting critical engineering changes to prevent future failures.",
+          "uploadedAt": "2026-04-18T07:14:26.502Z",
+          "pageCount": 9,
+          "byteSize": 20744
+        }
+      ],
+      "createdAt": "2026-04-17T21:12:24.630Z",
+      "lastUpdatedAt": "2026-04-18T07:14:26.502Z"
+    }
+  ],
+  "researchHistory": {
+    "d401f3e3-a0ad-4c41-8ac3-ef60ed86c1e9": [
+      {
+        "sessionId": "research_1776455179129",
+        "query": "Graph neural networks in healthcare diagnostics",
+        "report": {
+          "title": "Research Brief: Graph neural networks in healthcare diagnostics",
+          "abstract": "Graph neural networks in healthcare diagnostics spans background concepts, current literature, and practical adoption signals. This brief organizes the topic into a research-friendly summary so the user can move from overview to focused literature review.",
+          "keyFindings": [
+            "Graph neural networks in healthcare diagnostics should be studied using both foundational references and recent academic work.",
+            "Recent papers and scholarly records suggest the field is evolving fast, so narrowing the topic by application area will improve report quality.",
+            "A strong presentation should compare definitions, methods, evidence quality, and real-world limitations rather than relying on a single source type.",
+            "The current sources indicate that the most useful next step is a scoped question with domain, geography, or time boundaries."
+          ],
+          "sources": [
+            {
+              "title": "The Deep Arbitrary Polynomial Chaos Neural Network or how Deep Artificial Neural Networks could benefit from Data-Driven Homogeneous Chaos Theory",
+              "url": "http://arxiv.org/abs/2306.14753v1",
+              "snippet": "Artificial Intelligence and Machine learning have been widely used in various fields of mathematical computing, physical modeling, computational science, communication science, and stochastic analysis. Approaches based on Deep Artificial Neural Networks (DANN)",
+              "domain": "arxiv.org",
+              "sourceType": "academic",
+              "credibility": 0.92,
+              "publishedAt": "2023-06-26T15:09:14Z"
+            },
+            {
+              "title": "Learning Active Subspaces and Discovering Important Features with Gaussian Radial Basis Functions Neural Networks",
+              "url": "http://arxiv.org/abs/2307.05639v2",
+              "snippet": "Providing a model that achieves a strong predictive performance and is simultaneously interpretable by humans is one of the most difficult challenges in machine learning research due to the conflicting nature of these two objectives. To address this challenge,",
+              "domain": "arxiv.org",
+              "sourceType": "academic",
+              "credibility": 0.92,
+              "publishedAt": "2023-07-11T09:54:30Z"
+            },
+            {
+              "title": "MECCH: Metapath Context Convolution-based Heterogeneous Graph Neural Networks",
+              "url": "http://arxiv.org/abs/2211.12792v2",
+              "snippet": "Heterogeneous graph neural networks (HGNNs) were proposed for representation learning on structural data with multiple types of nodes and edges. To deal with the performance degradation issue when HGNNs become deep, researchers combine metapaths into HGNNs to ",
+              "domain": "arxiv.org",
+              "sourceType": "academic",
+              "credibility": 0.92,
+              "publishedAt": "2022-11-23T09:13:33Z"
+            },
+            {
+              "title": "Multimodal Integration with Graph Neural Networks (GNNs)",
+              "url": "https://doi.org/10.1007/978-3-032-04315-3_6",
+              "snippet": "Scholarly metadata record related to the research query.",
+              "domain": "doi.org",
+              "sourceType": "academic",
+              "credibility": 0.88,
+              "publishedAt": "2025-10-31T15:27:54Z"
+            },
+            {
+              "title": "Healthcare Network Designing Using Graph Neural Networks",
+              "url": "https://doi.org/10.2139/ssrn.5000061",
+              "snippet": "Scholarly metadata record related to the research query.",
+              "domain": "doi.org",
+              "sourceType": "academic",
+              "credibility": 0.88,
+              "publishedAt": "2024-11-08T13:35:02Z"
+            },
+            {
+              "title": "Bridging the Gap: Translational Opportunities of Graph Neural Networks from Research to Clinical Practice",
+              "url": "https://doi.org/10.1007/978-3-032-04315-3_11",
+              "snippet": "Scholarly metadata record related to the research query.",
+              "domain": "doi.org",
+              "sourceType": "academic",
+              "credibility": 0.88,
+              "publishedAt": "2025-10-31T15:28:08Z"
+            }
+          ],
+          "conclusion": "This initial research pass shows that Graph neural networks in healthcare diagnostics is broad enough to support a meaningful final report, but the clearest findings will come from narrowing the question and comparing a smaller set of high-quality sources in depth.",
+          "followUpQuestions": [
+            "Which recent papers define the strongest methods in Graph neural networks in healthcare diagnostics?",
+            "What evaluation metrics are commonly used for Graph neural networks in healthcare diagnostics?",
+            "What limitations or ethical risks appear most often in Graph neural networks in healthcare diagnostics?"
+          ],
+          "generatedAt": "2026-04-17T19:46:22.244Z"
+        },
+        "workflow": {
+          "searchQuery": "Graph neural networks in healthcare diagnostics",
+          "sourcesAnalyzed": 6,
+          "warnings": [
+            "Gemini is not configured, so the report used local synthesis only."
+          ],
+          "usedSessionMemory": false,
+          "modelUsed": null,
+          "stages": [
+            "source-discovery",
+            "synthesis"
+          ]
+        }
+      }
+    ],
+    "51f133f0-f5db-4c73-ab80-c67298b96711": [
+      {
+        "sessionId": "research_1776526387214",
+        "query": "Recent applications of graph neural networks in healthcare diagnostics",
+        "report": {
+          "title": "Recent Applications of Graph Neural Networks in Healthcare Diagnostics",
+          "abstract": "Graph Neural Networks (GNNs) are emerging as a significant tool in healthcare diagnostics, demonstrating utility across various applications. Current research highlights their role in integrating multimodal data, advancing brain connectomics, and offering translational opportunities from academic research to clinical practice.",
+          "keyFindings": [
+            "Graph Neural Networks (GNNs) are being applied for multimodal integration within healthcare diagnostics.",
+            "GNNs are advancing the field of brain connectomics, with ongoing research into their applications, challenges, and future directions.",
+            "Significant translational opportunities exist for GNNs, facilitating their transition from research environments to practical clinical applications.",
+            "Scholarly research is actively exploring the utility of GNNs in various aspects of healthcare diagnostics, as evidenced by dedicated metadata records."
+          ],
+          "conclusion": "The application of Graph Neural Networks in healthcare diagnostics is a rapidly developing area, showing promise in multimodal data integration and brain connectomics. The identified translational opportunities suggest a future where GNNs could play a crucial role in clinical practice, bridging the gap between advanced computational models and real-world diagnostic needs.",
+          "followUpQuestions": [
+            "What specific types of multimodal data are most effectively integrated using GNNs in current healthcare diagnostic applications?",
+            "What are the primary challenges identified in advancing brain connectomics through the use of Graph Neural Networks?",
+            "What specific strategies or frameworks are being explored to bridge the gap between GNN research and its translation into clinical practice?"
+          ],
+          "sources": [
+            {
+              "title": "The Deep Arbitrary Polynomial Chaos Neural Network or how Deep Artificial Neural Networks could benefit from Data-Driven Homogeneous Chaos Theory",
+              "url": "http://arxiv.org/abs/2306.14753v1",
+              "snippet": "Artificial Intelligence and Machine learning have been widely used in various fields of mathematical computing, physical modeling, computational science, communication science, and stochastic analysis. Approaches based on Deep Artificial Neural Networks (DANN)",
+              "domain": "arxiv.org",
+              "sourceType": "academic",
+              "credibility": 0.92,
+              "publishedAt": "2023-06-26T15:09:14Z"
+            },
+            {
+              "title": "Learning Active Subspaces and Discovering Important Features with Gaussian Radial Basis Functions Neural Networks",
+              "url": "http://arxiv.org/abs/2307.05639v2",
+              "snippet": "Providing a model that achieves a strong predictive performance and is simultaneously interpretable by humans is one of the most difficult challenges in machine learning research due to the conflicting nature of these two objectives. To address this challenge,",
+              "domain": "arxiv.org",
+              "sourceType": "academic",
+              "credibility": 0.92,
+              "publishedAt": "2023-07-11T09:54:30Z"
+            },
+            {
+              "title": "Hierarchical Attentional Hybrid Neural Networks for Document Classification",
+              "url": "http://arxiv.org/abs/1901.06610v2",
+              "snippet": "Document classification is a challenging task with important applications. The deep learning approaches to the problem have gained much attention recently. Despite the progress, the proposed models do not incorporate the knowledge of the document structure in ",
+              "domain": "arxiv.org",
+              "sourceType": "academic",
+              "credibility": 0.92,
+              "publishedAt": "2019-01-20T01:48:43Z"
+            },
+            {
+              "title": "Multimodal Integration with Graph Neural Networks (GNNs)",
+              "url": "https://doi.org/10.1007/978-3-032-04315-3_6",
+              "snippet": "Scholarly metadata record related to the research query.",
+              "domain": "doi.org",
+              "sourceType": "academic",
+              "credibility": 0.88,
+              "publishedAt": "2025-10-31T15:27:54Z"
+            },
+            {
+              "title": "Bridging the Gap: Translational Opportunities of Graph Neural Networks from Research to Clinical Practice",
+              "url": "https://doi.org/10.1007/978-3-032-04315-3_11",
+              "snippet": "Scholarly metadata record related to the research query.",
+              "domain": "doi.org",
+              "sourceType": "academic",
+              "credibility": 0.88,
+              "publishedAt": "2025-10-31T15:28:08Z"
+            },
+            {
+              "title": "Advancing Brain Connectomics with Graph Neural Networks: Applications, Challenges, and Future Directions",
+              "url": "https://doi.org/10.1007/978-3-032-04315-3_4",
+              "snippet": "Scholarly metadata record related to the research query.",
+              "domain": "doi.org",
+              "sourceType": "academic",
+              "credibility": 0.88,
+              "publishedAt": "2025-10-31T15:27:55Z"
+            }
+          ],
+          "generatedAt": "2026-04-18T15:33:26.177Z"
+        },
+        "workflow": {
+          "searchQuery": "Recent applications of graph neural networks in healthcare diagnostics",
+          "sourcesAnalyzed": 6,
+          "warnings": [],
+          "usedSessionMemory": true,
+          "modelUsed": "gemini-2.5-flash",
+          "stages": [
+            "source-discovery",
+            "synthesis"
+          ]
+        }
+      },
+      {
+        "sessionId": "research_1776524273254",
+        "query": "Recent applications of graph neural networks in healthcare diagnostics",
+        "report": {
+          "title": "Recent Applications of Graph Neural Networks in Healthcare Diagnostics",
+          "abstract": "Graph Neural Networks (GNNs) are increasingly applied in healthcare diagnostics, demonstrating utility in integrating diverse data types and advancing specific diagnostic fields. Current research highlights their application in multimodal data integration, brain connectomics, and facilitating the translation of research findings into clinical practice.",
+          "keyFindings": [
+            "Graph Neural Networks (GNNs) are utilized for multimodal integration within healthcare diagnostics.",
+            "GNNs are advancing the field of brain connectomics, encompassing their applications, associated challenges, and future directions.",
+            "GNNs present significant translational opportunities, aiming to bridge the gap between research advancements and practical clinical implementation in healthcare.",
+            "The application of Graph Neural Networks in healthcare diagnostics is an active and recognized area of academic inquiry, as indicated by existing scholarly metadata."
+          ],
+          "conclusion": "Graph Neural Networks are proving instrumental in addressing complex diagnostic challenges in healthcare, particularly through their capacity for multimodal data integration and their role in advancing specialized areas like brain connectomics. Their potential to translate research into clinical utility underscores their growing importance in the field.",
+          "followUpQuestions": [
+            "What are the specific challenges encountered when applying GNNs to brain connectomics, and what are the proposed future directions to overcome them?",
+            "Can specific examples or methodologies for multimodal integration using GNNs in healthcare diagnostics be elaborated?",
+            "What concrete strategies or frameworks are being developed to facilitate the translational opportunities of GNNs from research to clinical practice?"
+          ],
+          "sources": [
+            {
+              "title": "The Deep Arbitrary Polynomial Chaos Neural Network or how Deep Artificial Neural Networks could benefit from Data-Driven Homogeneous Chaos Theory",
+              "url": "http://arxiv.org/abs/2306.14753v1",
+              "snippet": "Artificial Intelligence and Machine learning have been widely used in various fields of mathematical computing, physical modeling, computational science, communication science, and stochastic analysis. Approaches based on Deep Artificial Neural Networks (DANN)",
+              "domain": "arxiv.org",
+              "sourceType": "academic",
+              "credibility": 0.92,
+              "publishedAt": "2023-06-26T15:09:14Z"
+            },
+            {
+              "title": "Learning Active Subspaces and Discovering Important Features with Gaussian Radial Basis Functions Neural Networks",
+              "url": "http://arxiv.org/abs/2307.05639v2",
+              "snippet": "Providing a model that achieves a strong predictive performance and is simultaneously interpretable by humans is one of the most difficult challenges in machine learning research due to the conflicting nature of these two objectives. To address this challenge,",
+              "domain": "arxiv.org",
+              "sourceType": "academic",
+              "credibility": 0.92,
+              "publishedAt": "2023-07-11T09:54:30Z"
+            },
+            {
+              "title": "Hierarchical Attentional Hybrid Neural Networks for Document Classification",
+              "url": "http://arxiv.org/abs/1901.06610v2",
+              "snippet": "Document classification is a challenging task with important applications. The deep learning approaches to the problem have gained much attention recently. Despite the progress, the proposed models do not incorporate the knowledge of the document structure in ",
+              "domain": "arxiv.org",
+              "sourceType": "academic",
+              "credibility": 0.92,
+              "publishedAt": "2019-01-20T01:48:43Z"
+            },
+            {
+              "title": "Multimodal Integration with Graph Neural Networks (GNNs)",
+              "url": "https://doi.org/10.1007/978-3-032-04315-3_6",
+              "snippet": "Scholarly metadata record related to the research query.",
+              "domain": "doi.org",
+              "sourceType": "academic",
+              "credibility": 0.88,
+              "publishedAt": "2025-10-31T15:27:54Z"
+            },
+            {
+              "title": "Bridging the Gap: Translational Opportunities of Graph Neural Networks from Research to Clinical Practice",
+              "url": "https://doi.org/10.1007/978-3-032-04315-3_11",
+              "snippet": "Scholarly metadata record related to the research query.",
+              "domain": "doi.org",
+              "sourceType": "academic",
+              "credibility": 0.88,
+              "publishedAt": "2025-10-31T15:28:08Z"
+            },
+            {
+              "title": "Advancing Brain Connectomics with Graph Neural Networks: Applications, Challenges, and Future Directions",
+              "url": "https://doi.org/10.1007/978-3-032-04315-3_4",
+              "snippet": "Scholarly metadata record related to the research query.",
+              "domain": "doi.org",
+              "sourceType": "academic",
+              "credibility": 0.88,
+              "publishedAt": "2025-10-31T15:27:55Z"
+            }
+          ],
+          "generatedAt": "2026-04-18T14:58:31.984Z"
+        },
+        "workflow": {
+          "searchQuery": "Recent applications of graph neural networks in healthcare diagnostics",
+          "sourcesAnalyzed": 6,
+          "warnings": [],
+          "usedSessionMemory": true,
+          "modelUsed": "gemini-2.5-flash",
+          "stages": [
+            "source-discovery",
+            "synthesis"
+          ]
+        }
+      },
+      {
+        "sessionId": "research_1776496627008",
+        "query": "Recent applications of graph neural networks in healthcare diagnostics",
+        "report": {
+          "title": "Recent Applications of Graph Neural Networks in Healthcare Diagnostics",
+          "abstract": "This report synthesizes recent academic insights into the application of Graph Neural Networks (GNNs) within healthcare diagnostics. It highlights GNNs' utility in multimodal data integration, their translational potential from research to clinical practice, and specific applications in areas such as brain connectomics. The findings underscore the growing role of GNNs in analyzing complex medical data for diagnostic purposes.",
+          "keyFindings": [
+            "Graph Neural Networks (GNNs) are applied for multimodal integration in healthcare contexts, which is crucial for comprehensive diagnostics.",
+            "GNNs offer significant translational opportunities, bridging the gap between research advancements and practical clinical diagnostic applications.",
+            "GNNs are specifically utilized for advancing brain connectomics, encompassing their applications, challenges, and future directions within this diagnostic field.",
+            "Research into GNNs in healthcare diagnostics is actively exploring their diverse applications, as well as the challenges and future directions for their implementation."
+          ],
+          "conclusion": "Graph Neural Networks are emerging as a powerful tool in healthcare diagnostics, particularly for integrating diverse data types and advancing specialized fields like brain connectomics. Their potential for translation into clinical practice suggests a transformative impact on diagnostic methodologies.",
+          "followUpQuestions": [
+            "What specific types of multimodal data are most effectively integrated by GNNs for diagnostic purposes?",
+            "What are the primary challenges hindering the widespread translation of GNN research into clinical diagnostic practice?",
+            "Beyond brain connectomics, what other specific diagnostic areas are showing promising early applications of GNNs?"
+          ],
+          "sources": [
+            {
+              "title": "The Deep Arbitrary Polynomial Chaos Neural Network or how Deep Artificial Neural Networks could benefit from Data-Driven Homogeneous Chaos Theory",
+              "url": "http://arxiv.org/abs/2306.14753v1",
+              "snippet": "Artificial Intelligence and Machine learning have been widely used in various fields of mathematical computing, physical modeling, computational science, communication science, and stochastic analysis. Approaches based on Deep Artificial Neural Networks (DANN)",
+              "domain": "arxiv.org",
+              "sourceType": "academic",
+              "credibility": 0.92,
+              "publishedAt": "2023-06-26T15:09:14Z"
+            },
+            {
+              "title": "Learning Active Subspaces and Discovering Important Features with Gaussian Radial Basis Functions Neural Networks",
+              "url": "http://arxiv.org/abs/2307.05639v2",
+              "snippet": "Providing a model that achieves a strong predictive performance and is simultaneously interpretable by humans is one of the most difficult challenges in machine learning research due to the conflicting nature of these two objectives. To address this challenge,",
+              "domain": "arxiv.org",
+              "sourceType": "academic",
+              "credibility": 0.92,
+              "publishedAt": "2023-07-11T09:54:30Z"
+            },
+            {
+              "title": "Hierarchical Attentional Hybrid Neural Networks for Document Classification",
+              "url": "http://arxiv.org/abs/1901.06610v2",
+              "snippet": "Document classification is a challenging task with important applications. The deep learning approaches to the problem have gained much attention recently. Despite the progress, the proposed models do not incorporate the knowledge of the document structure in ",
+              "domain": "arxiv.org",
+              "sourceType": "academic",
+              "credibility": 0.92,
+              "publishedAt": "2019-01-20T01:48:43Z"
+            },
+            {
+              "title": "Multimodal Integration with Graph Neural Networks (GNNs)",
+              "url": "https://doi.org/10.1007/978-3-032-04315-3_6",
+              "snippet": "Scholarly metadata record related to the research query.",
+              "domain": "doi.org",
+              "sourceType": "academic",
+              "credibility": 0.88,
+              "publishedAt": "2025-10-31T15:27:54Z"
+            },
+            {
+              "title": "Bridging the Gap: Translational Opportunities of Graph Neural Networks from Research to Clinical Practice",
+              "url": "https://doi.org/10.1007/978-3-032-04315-3_11",
+              "snippet": "Scholarly metadata record related to the research query.",
+              "domain": "doi.org",
+              "sourceType": "academic",
+              "credibility": 0.88,
+              "publishedAt": "2025-10-31T15:28:08Z"
+            },
+            {
+              "title": "Advancing Brain Connectomics with Graph Neural Networks: Applications, Challenges, and Future Directions",
+              "url": "https://doi.org/10.1007/978-3-032-04315-3_4",
+              "snippet": "Scholarly metadata record related to the research query.",
+              "domain": "doi.org",
+              "sourceType": "academic",
+              "credibility": 0.88,
+              "publishedAt": "2025-10-31T15:27:55Z"
+            }
+          ],
+          "generatedAt": "2026-04-18T07:17:47.708Z"
+        },
+        "workflow": {
+          "searchQuery": "Recent applications of graph neural networks in healthcare diagnostics",
+          "sourcesAnalyzed": 6,
+          "warnings": [],
+          "usedSessionMemory": true,
+          "modelUsed": "gemini-2.5-flash",
+          "stages": [
+            "source-discovery",
+            "synthesis"
+          ]
+        }
+      },
+      {
+        "sessionId": "research_1776455533417",
+        "query": "How retrieval-augmented generation reduces hallucinations in research assistants",
+        "report": {
+          "title": "Research Brief: How retrieval-augmented generation reduces hallucinations in research assistants",
+          "abstract": "How retrieval-augmented generation reduces hallucinations in research assistants spans background concepts, current literature, and practical adoption signals. This brief organizes the topic into a research-friendly summary so the user can move from overview to focused literature review.",
+          "keyFindings": [
+            "How retrieval-augmented generation reduces hallucinations in research assistants should be studied using both foundational references and recent academic work.",
+            "Recent papers and scholarly records suggest the field is evolving fast, so narrowing the topic by application area will improve report quality.",
+            "A strong presentation should compare definitions, methods, evidence quality, and real-world limitations rather than relying on a single source type.",
+            "The current sources indicate that the most useful next step is a scoped question with domain, geography, or time boundaries."
+          ],
+          "sources": [
+            {
+              "title": "AR-RAG: Autoregressive Retrieval Augmentation for Image Generation",
+              "url": "http://arxiv.org/abs/2506.06962v3",
+              "snippet": "We introduce Autoregressive Retrieval Augmentation (AR-RAG), a novel paradigm that enhances image generation by autoregressively incorporating knearest neighbor retrievals at the patch level. Unlike prior methods that perform a single, static retrieval before ",
+              "domain": "arxiv.org",
+              "sourceType": "academic",
+              "credibility": 0.92,
+              "publishedAt": "2025-06-08T01:33:05Z"
+            },
+            {
+              "title": "EVOR: Evolving Retrieval for Code Generation",
+              "url": "http://arxiv.org/abs/2402.12317v2",
+              "snippet": "Recently the retrieval-augmented generation (RAG) has been successfully applied in code generation. However, existing pipelines for retrieval-augmented code generation (RACG) employ static knowledge bases with a single source, limiting the adaptation capabilit",
+              "domain": "arxiv.org",
+              "sourceType": "academic",
+              "credibility": 0.92,
+              "publishedAt": "2024-02-19T17:37:28Z"
+            },
+            {
+              "title": "Automated Literature Review Using NLP Techniques and LLM-Based Retrieval-Augmented Generation",
+              "url": "http://arxiv.org/abs/2411.18583v1",
+              "snippet": "This research presents and compares multiple approaches to automate the generation of literature reviews using several Natural Language Processing (NLP) techniques and retrieval-augmented generation (RAG) with a Large Language Model (LLM). The ever-increasing ",
+              "domain": "arxiv.org",
+              "sourceType": "academic",
+              "credibility": 0.92,
+              "publishedAt": "2024-11-27T18:27:07Z"
+            },
+            {
+              "title": "EduRAG",
+              "url": "https://doi.org/10.31979/etd.92ne-ym3n",
+              "snippet": "Scholarly metadata record related to the research query.",
+              "domain": "doi.org",
+              "sourceType": "academic",
+              "credibility": 0.88,
+              "publishedAt": "2025-06-23T18:35:09Z"
+            },
+            {
+              "title": "FinBot Connect: A Secure Retrieval-Augmented Generation Framework for Banking Assistants",
+              "url": "https://doi.org/10.2139/ssrn.6219653",
+              "snippet": "The recent advances on LLMs have contributed much to improving conversational AI systems. The utilization of these technologies in critical sectors such as finance continues to be obstructed by significant challenges, including the occurrence of hallucinations",
+              "domain": "doi.org",
+              "sourceType": "academic",
+              "credibility": 0.88,
+              "publishedAt": "2026-02-11T16:39:08Z"
+            },
+            {
+              "title": "Lrp4rag: Detecting Hallucinations in Retrieval-Augmented Generation Via Layer-Wise Relevance Propagation",
+              "url": "https://doi.org/10.2139/ssrn.5199254",
+              "snippet": "Scholarly metadata record related to the research query.",
+              "domain": "doi.org",
+              "sourceType": "academic",
+              "credibility": 0.88,
+              "publishedAt": "2025-04-12T01:11:13Z"
+            }
+          ],
+          "conclusion": "This initial research pass shows that How retrieval-augmented generation reduces hallucinations in research assistants is broad enough to support a meaningful final report, but the clearest findings will come from narrowing the question and comparing a smaller set of high-quality sources in depth.",
+          "followUpQuestions": [
+            "Which recent papers define the strongest methods in How retrieval-augmented generation reduces hallucinations in research assistants?",
+            "What evaluation metrics are commonly used for How retrieval-augmented generation reduces hallucinations in research assistants?",
+            "What limitations or ethical risks appear most often in How retrieval-augmented generation reduces hallucinations in research assistants?"
+          ],
+          "generatedAt": "2026-04-17T19:52:42.127Z"
+        },
+        "workflow": {
+          "searchQuery": "How retrieval-augmented generation reduces hallucinations in research assistants",
+          "sourcesAnalyzed": 6,
+          "warnings": [
+            "Gemini is not configured, so the report used local synthesis only."
+          ],
+          "usedSessionMemory": false,
+          "modelUsed": null,
+          "stages": [
+            "source-discovery",
+            "synthesis"
+          ]
+        }
+      }
+    ],
+    "user_1776455113089_xwazfg": [
+      {
+        "sessionId": "research_1776491072146",
+        "query": "Recent applications of graph neural networks in healthcare diagnostics",
+        "report": {
+          "title": "Recent Applications of Graph Neural Networks in Healthcare Diagnostics",
+          "abstract": "Graph Neural Networks (GNNs) are emerging as a significant tool in healthcare diagnostics. Current research indicates applications in multimodal data integration, advancements in brain connectomics, and efforts to bridge the gap between GNN research and clinical practice, suggesting their potential for transforming diagnostic workflows.",
+          "keyFindings": [
+            "GNNs are being utilized for multimodal integration, indicating their capacity to process and combine diverse data sources relevant to diagnostics.",
+            "There are identified translational opportunities for GNNs to move from research environments into practical clinical applications, highlighting their potential impact on healthcare diagnostics.",
+            "GNNs are applied in advancing brain connectomics, suggesting their utility in analyzing complex neural network data for diagnostic purposes.",
+            "The field is actively exploring the integration of GNN research findings into clinical practice to enhance diagnostic capabilities."
+          ],
+          "conclusion": "The available scholarly metadata suggests that Graph Neural Networks hold considerable promise for healthcare diagnostics, with identified applications in multimodal data integration and brain connectomics, alongside ongoing efforts to facilitate their translation into clinical settings.",
+          "followUpQuestions": [
+            "What specific types of multimodal data are integrated using GNNs in current healthcare diagnostic applications?",
+            "What are the primary challenges and successes in translating GNN research into routine clinical diagnostic practice?",
+            "What specific diagnostic insights or improvements have been achieved through the application of GNNs in brain connectomics?"
+          ],
+          "sources": [
+            {
+              "title": "The Deep Arbitrary Polynomial Chaos Neural Network or how Deep Artificial Neural Networks could benefit from Data-Driven Homogeneous Chaos Theory",
+              "url": "http://arxiv.org/abs/2306.14753v1",
+              "snippet": "Artificial Intelligence and Machine learning have been widely used in various fields of mathematical computing, physical modeling, computational science, communication science, and stochastic analysis. Approaches based on Deep Artificial Neural Networks (DANN)",
+              "domain": "arxiv.org",
+              "sourceType": "academic",
+              "credibility": 0.92,
+              "publishedAt": "2023-06-26T15:09:14Z"
+            },
+            {
+              "title": "Learning Active Subspaces and Discovering Important Features with Gaussian Radial Basis Functions Neural Networks",
+              "url": "http://arxiv.org/abs/2307.05639v2",
+              "snippet": "Providing a model that achieves a strong predictive performance and is simultaneously interpretable by humans is one of the most difficult challenges in machine learning research due to the conflicting nature of these two objectives. To address this challenge,",
+              "domain": "arxiv.org",
+              "sourceType": "academic",
+              "credibility": 0.92,
+              "publishedAt": "2023-07-11T09:54:30Z"
+            },
+            {
+              "title": "Hierarchical Attentional Hybrid Neural Networks for Document Classification",
+              "url": "http://arxiv.org/abs/1901.06610v2",
+              "snippet": "Document classification is a challenging task with important applications. The deep learning approaches to the problem have gained much attention recently. Despite the progress, the proposed models do not incorporate the knowledge of the document structure in ",
+              "domain": "arxiv.org",
+              "sourceType": "academic",
+              "credibility": 0.92,
+              "publishedAt": "2019-01-20T01:48:43Z"
+            },
+            {
+              "title": "Multimodal Integration with Graph Neural Networks (GNNs)",
+              "url": "https://doi.org/10.1007/978-3-032-04315-3_6",
+              "snippet": "Scholarly metadata record related to the research query.",
+              "domain": "doi.org",
+              "sourceType": "academic",
+              "credibility": 0.88,
+              "publishedAt": "2025-10-31T15:27:54Z"
+            },
+            {
+              "title": "Bridging the Gap: Translational Opportunities of Graph Neural Networks from Research to Clinical Practice",
+              "url": "https://doi.org/10.1007/978-3-032-04315-3_11",
+              "snippet": "Scholarly metadata record related to the research query.",
+              "domain": "doi.org",
+              "sourceType": "academic",
+              "credibility": 0.88,
+              "publishedAt": "2025-10-31T15:28:08Z"
+            },
+            {
+              "title": "Advancing Brain Connectomics with Graph Neural Networks: Applications, Challenges, and Future Directions",
+              "url": "https://doi.org/10.1007/978-3-032-04315-3_4",
+              "snippet": "Scholarly metadata record related to the research query.",
+              "domain": "doi.org",
+              "sourceType": "academic",
+              "credibility": 0.88,
+              "publishedAt": "2025-10-31T15:27:55Z"
+            }
+          ],
+          "generatedAt": "2026-04-18T05:44:49.778Z"
+        },
+        "workflow": {
+          "searchQuery": "Recent applications of graph neural networks in healthcare diagnostics",
+          "sourcesAnalyzed": 6,
+          "warnings": [],
+          "usedSessionMemory": true,
+          "modelUsed": "gemini-2.5-flash",
+          "stages": [
+            "source-discovery",
+            "synthesis"
+          ]
+        }
+      },
+      {
+        "sessionId": "research_1776463483274",
+        "query": "How retrieval-augmented generation reduces hallucinations in research assistants",
+        "report": {
+          "title": "Research Brief: How retrieval-augmented generation reduces hallucinations in research assistants",
+          "abstract": "How retrieval-augmented generation reduces hallucinations in research assistants spans background concepts, current literature, and practical adoption signals. This brief organizes the topic into a research-friendly summary so the user can move from overview to focused literature review.",
+          "keyFindings": [
+            "How retrieval-augmented generation reduces hallucinations in research assistants should be studied using both foundational references and recent academic work.",
+            "Recent papers and scholarly records suggest the field is evolving fast, so narrowing the topic by application area will improve report quality.",
+            "A strong presentation should compare definitions, methods, evidence quality, and real-world limitations rather than relying on a single source type.",
+            "The current sources indicate that the most useful next step is a scoped question with domain, geography, or time boundaries."
+          ],
+          "sources": [
+            {
+              "title": "AR-RAG: Autoregressive Retrieval Augmentation for Image Generation",
+              "url": "http://arxiv.org/abs/2506.06962v3",
+              "snippet": "We introduce Autoregressive Retrieval Augmentation (AR-RAG), a novel paradigm that enhances image generation by autoregressively incorporating knearest neighbor retrievals at the patch level. Unlike prior methods that perform a single, static retrieval before ",
+              "domain": "arxiv.org",
+              "sourceType": "academic",
+              "credibility": 0.92,
+              "publishedAt": "2025-06-08T01:33:05Z"
+            },
+            {
+              "title": "EVOR: Evolving Retrieval for Code Generation",
+              "url": "http://arxiv.org/abs/2402.12317v2",
+              "snippet": "Recently the retrieval-augmented generation (RAG) has been successfully applied in code generation. However, existing pipelines for retrieval-augmented code generation (RACG) employ static knowledge bases with a single source, limiting the adaptation capabilit",
+              "domain": "arxiv.org",
+              "sourceType": "academic",
+              "credibility": 0.92,
+              "publishedAt": "2024-02-19T17:37:28Z"
+            },
+            {
+              "title": "Automated Literature Review Using NLP Techniques and LLM-Based Retrieval-Augmented Generation",
+              "url": "http://arxiv.org/abs/2411.18583v1",
+              "snippet": "This research presents and compares multiple approaches to automate the generation of literature reviews using several Natural Language Processing (NLP) techniques and retrieval-augmented generation (RAG) with a Large Language Model (LLM). The ever-increasing ",
+              "domain": "arxiv.org",
+              "sourceType": "academic",
+              "credibility": 0.92,
+              "publishedAt": "2024-11-27T18:27:07Z"
+            },
+            {
+              "title": "EduRAG",
+              "url": "https://doi.org/10.31979/etd.92ne-ym3n",
+              "snippet": "Scholarly metadata record related to the research query.",
+              "domain": "doi.org",
+              "sourceType": "academic",
+              "credibility": 0.88,
+              "publishedAt": "2025-06-23T18:35:09Z"
+            },
+            {
+              "title": "FinBot Connect: A Secure Retrieval-Augmented Generation Framework for Banking Assistants",
+              "url": "https://doi.org/10.2139/ssrn.6219653",
+              "snippet": "The recent advances on LLMs have contributed much to improving conversational AI systems. The utilization of these technologies in critical sectors such as finance continues to be obstructed by significant challenges, including the occurrence of hallucinations",
+              "domain": "doi.org",
+              "sourceType": "academic",
+              "credibility": 0.88,
+              "publishedAt": "2026-02-11T16:39:08Z"
+            },
+            {
+              "title": "Lrp4rag: Detecting Hallucinations in Retrieval-Augmented Generation Via Layer-Wise Relevance Propagation",
+              "url": "https://doi.org/10.2139/ssrn.5199254",
+              "snippet": "Scholarly metadata record related to the research query.",
+              "domain": "doi.org",
+              "sourceType": "academic",
+              "credibility": 0.88,
+              "publishedAt": "2025-04-12T01:11:13Z"
+            }
+          ],
+          "conclusion": "This initial research pass shows that How retrieval-augmented generation reduces hallucinations in research assistants is broad enough to support a meaningful final report, but the clearest findings will come from narrowing the question and comparing a smaller set of high-quality sources in depth.",
+          "followUpQuestions": [
+            "Which recent papers define the strongest methods in How retrieval-augmented generation reduces hallucinations in research assistants?",
+            "What evaluation metrics are commonly used for How retrieval-augmented generation reduces hallucinations in research assistants?",
+            "What limitations or ethical risks appear most often in How retrieval-augmented generation reduces hallucinations in research assistants?"
+          ],
+          "generatedAt": "2026-04-17T22:05:03.902Z"
+        },
+        "workflow": {
+          "searchQuery": "How retrieval-augmented generation reduces hallucinations in research assistants",
+          "sourcesAnalyzed": 6,
+          "warnings": [
+            "Gemini synthesis failed, so the report used a local fallback template."
+          ],
+          "usedSessionMemory": true,
+          "modelUsed": "gemini-2.5-flash",
+          "stages": [
+            "source-discovery",
+            "synthesis"
+          ]
+        }
+      },
+      {
+        "sessionId": "research_1776460408542",
+        "query": "How retrieval-augmented generation reduces hallucinations in research assistants",
+        "report": {
+          "title": "The Role of Retrieval-Augmented Generation in Mitigating Hallucinations in Research Assistant Systems",
+          "abstract": "Large Language Models (LLMs) have significantly advanced conversational AI, yet their deployment in critical applications, such as research assistance, is hindered by the persistent challenge of generating hallucinations. This report examines how Retrieval-Augmented Generation (RAG) frameworks address this issue, enhancing the reliability and factual accuracy of AI systems by integrating external knowledge retrieval.",
+          "keyFindings": [
+            "Advances in Large Language Models (LLMs) have substantially improved conversational AI systems, offering enhanced capabilities for interaction and information processing.",
+            "The utility of LLMs in critical sectors, including finance and by extension, research, is significantly obstructed by the occurrence of hallucinations, which compromise factual accuracy and trustworthiness.",
+            "Retrieval-Augmented Generation (RAG) frameworks are being developed as a secure and effective approach to mitigate hallucinations, as demonstrated by applications like 'FinBot Connect' for banking assistants.",
+            "The principles of RAG are directly applicable to scholarly and educational contexts, with ongoing research into RAG-based systems ('EduRAG') and methods for detecting hallucinations within RAG architectures."
+          ],
+          "conclusion": "While LLMs offer considerable advancements to AI systems, their susceptibility to hallucinations necessitates robust mitigation strategies. Retrieval-Augmented Generation (RAG) emerges as a crucial framework for enhancing the factual integrity and reliability of AI, making it particularly valuable for applications demanding high accuracy, such as research assistants.",
+          "followUpQuestions": [
+            "What specific mechanisms within RAG architectures are most effective in preventing the generation of factually incorrect information?",
+            "How do RAG systems balance the novelty of LLM-generated responses with the factual grounding provided by retrieved information?",
+            "What are the performance benchmarks for RAG-powered research assistants in reducing hallucinations compared to standalone LLM approaches in various research domains?"
+          ],
+          "sources": [
+            {
+              "title": "EduRAG",
+              "url": "https://doi.org/10.31979/etd.92ne-ym3n",
+              "snippet": "Scholarly metadata record related to the research query.",
+              "domain": "doi.org",
+              "sourceType": "academic",
+              "credibility": 0.88,
+              "publishedAt": "2025-06-23T18:35:09Z"
+            },
+            {
+              "title": "FinBot Connect: A Secure Retrieval-Augmented Generation Framework for Banking Assistants",
+              "url": "https://doi.org/10.2139/ssrn.6219653",
+              "snippet": "The recent advances on LLMs have contributed much to improving conversational AI systems. The utilization of these technologies in critical sectors such as finance continues to be obstructed by significant challenges, including the occurrence of hallucinations",
+              "domain": "doi.org",
+              "sourceType": "academic",
+              "credibility": 0.88,
+              "publishedAt": "2026-02-11T16:39:08Z"
+            },
+            {
+              "title": "Lrp4rag: Detecting Hallucinations in Retrieval-Augmented Generation Via Layer-Wise Relevance Propagation",
+              "url": "https://doi.org/10.2139/ssrn.5199254",
+              "snippet": "Scholarly metadata record related to the research query.",
+              "domain": "doi.org",
+              "sourceType": "academic",
+              "credibility": 0.88,
+              "publishedAt": "2025-04-12T01:11:13Z"
+            }
+          ],
+          "generatedAt": "2026-04-17T21:14:27.934Z"
+        },
+        "workflow": {
+          "searchQuery": "How retrieval-augmented generation reduces hallucinations in research assistants",
+          "sourcesAnalyzed": 3,
+          "warnings": [],
+          "usedSessionMemory": true,
+          "modelUsed": "gemini-2.5-flash",
+          "stages": [
+            "source-discovery",
+            "synthesis"
+          ]
+        }
+      },
+      {
+        "sessionId": "research_1776460408542",
+        "query": "How retrieval-augmented generation reduces hallucinations in research assistants",
+        "report": {
+          "title": "Research Brief: How retrieval-augmented generation reduces hallucinations in research assistants",
+          "abstract": "How retrieval-augmented generation reduces hallucinations in research assistants spans background concepts, current literature, and practical adoption signals. This brief organizes the topic into a research-friendly summary so the user can move from overview to focused literature review.",
+          "keyFindings": [
+            "How retrieval-augmented generation reduces hallucinations in research assistants should be studied using both foundational references and recent academic work.",
+            "Recent papers and scholarly records suggest the field is evolving fast, so narrowing the topic by application area will improve report quality.",
+            "A strong presentation should compare definitions, methods, evidence quality, and real-world limitations rather than relying on a single source type.",
+            "The current sources indicate that the most useful next step is a scoped question with domain, geography, or time boundaries."
+          ],
+          "sources": [
+            {
+              "title": "EduRAG",
+              "url": "https://doi.org/10.31979/etd.92ne-ym3n",
+              "snippet": "Scholarly metadata record related to the research query.",
+              "domain": "doi.org",
+              "sourceType": "academic",
+              "credibility": 0.88,
+              "publishedAt": "2025-06-23T18:35:09Z"
+            },
+            {
+              "title": "FinBot Connect: A Secure Retrieval-Augmented Generation Framework for Banking Assistants",
+              "url": "https://doi.org/10.2139/ssrn.6219653",
+              "snippet": "The recent advances on LLMs have contributed much to improving conversational AI systems. The utilization of these technologies in critical sectors such as finance continues to be obstructed by significant challenges, including the occurrence of hallucinations",
+              "domain": "doi.org",
+              "sourceType": "academic",
+              "credibility": 0.88,
+              "publishedAt": "2026-02-11T16:39:08Z"
+            },
+            {
+              "title": "Lrp4rag: Detecting Hallucinations in Retrieval-Augmented Generation Via Layer-Wise Relevance Propagation",
+              "url": "https://doi.org/10.2139/ssrn.5199254",
+              "snippet": "Scholarly metadata record related to the research query.",
+              "domain": "doi.org",
+              "sourceType": "academic",
+              "credibility": 0.88,
+              "publishedAt": "2025-04-12T01:11:13Z"
+            }
+          ],
+          "conclusion": "This initial research pass shows that How retrieval-augmented generation reduces hallucinations in research assistants is broad enough to support a meaningful final report, but the clearest findings will come from narrowing the question and comparing a smaller set of high-quality sources in depth.",
+          "followUpQuestions": [
+            "Which recent papers define the strongest methods in How retrieval-augmented generation reduces hallucinations in research assistants?",
+            "What evaluation metrics are commonly used for How retrieval-augmented generation reduces hallucinations in research assistants?",
+            "What limitations or ethical risks appear most often in How retrieval-augmented generation reduces hallucinations in research assistants?"
+          ],
+          "generatedAt": "2026-04-17T21:13:47.202Z"
+        },
+        "workflow": {
+          "searchQuery": "How retrieval-augmented generation reduces hallucinations in research assistants",
+          "sourcesAnalyzed": 3,
+          "warnings": [
+            "Gemini synthesis failed, so the report used a local fallback template."
+          ],
+          "usedSessionMemory": true,
+          "modelUsed": "gemini-2.5-flash",
+          "stages": [
+            "source-discovery",
+            "synthesis"
+          ]
+        }
+      },
+      {
+        "sessionId": "research_1776460408542",
+        "query": "Recent applications of graph neural networks in healthcare diagnostics",
+        "report": {
+          "title": "Recent Applications of Graph Neural Networks in Healthcare Diagnostics",
+          "abstract": "Based on available scholarly metadata, Graph Neural Networks (GNNs) are a subject of academic inquiry in healthcare diagnostics. Identified areas of research include multimodal integration, advancements in brain connectomics, and the translational opportunities for GNNs from research settings to clinical practice.",
+          "keyFindings": [
+            "GNNs are being investigated for multimodal integration within healthcare contexts.",
+            "Research is exploring the application of GNNs to advance brain connectomics.",
+            "Translational opportunities for GNNs from research to clinical practice are a recognized area of focus.",
+            "Challenges and future directions for GNN applications in brain connectomics are being considered."
+          ],
+          "conclusion": "Academic records indicate a growing interest in applying Graph Neural Networks to various aspects of healthcare diagnostics, particularly in areas requiring complex data integration and analysis such as brain connectomics, with a recognized need to bridge research and clinical application.",
+          "followUpQuestions": [
+            "What specific methodologies are proposed for multimodal integration using GNNs in healthcare?",
+            "What are the identified challenges hindering the translation of GNN research into widespread clinical practice?",
+            "What specific future directions are outlined for GNN applications in advancing brain connectomics?"
+          ],
+          "sources": [
+            {
+              "title": "Multimodal Integration with Graph Neural Networks (GNNs)",
+              "url": "https://doi.org/10.1007/978-3-032-04315-3_6",
+              "snippet": "Scholarly metadata record related to the research query.",
+              "domain": "doi.org",
+              "sourceType": "academic",
+              "credibility": 0.88,
+              "publishedAt": "2025-10-31T15:27:54Z"
+            },
+            {
+              "title": "Bridging the Gap: Translational Opportunities of Graph Neural Networks from Research to Clinical Practice",
+              "url": "https://doi.org/10.1007/978-3-032-04315-3_11",
+              "snippet": "Scholarly metadata record related to the research query.",
+              "domain": "doi.org",
+              "sourceType": "academic",
+              "credibility": 0.88,
+              "publishedAt": "2025-10-31T15:28:08Z"
+            },
+            {
+              "title": "Advancing Brain Connectomics with Graph Neural Networks: Applications, Challenges, and Future Directions",
+              "url": "https://doi.org/10.1007/978-3-032-04315-3_4",
+              "snippet": "Scholarly metadata record related to the research query.",
+              "domain": "doi.org",
+              "sourceType": "academic",
+              "credibility": 0.88,
+              "publishedAt": "2025-10-31T15:27:55Z"
+            }
+          ],
+          "generatedAt": "2026-04-17T21:13:45.844Z"
+        },
+        "workflow": {
+          "searchQuery": "Recent applications of graph neural networks in healthcare diagnostics",
+          "sourcesAnalyzed": 3,
+          "warnings": [],
+          "usedSessionMemory": false,
+          "modelUsed": "gemini-2.5-flash",
+          "stages": [
+            "source-discovery",
+            "synthesis"
+          ]
+        }
+      }
+    ],
+    "997ec4ed-8ea3-41c8-b134-f4dcb942123a": [
+      {
+        "sessionId": "research_1776496956284",
+        "query": "tell me about langchain",
+        "report": {
+          "title": "Research Report on Langchain",
+          "abstract": "This report synthesizes information regarding 'Langchain' based exclusively on the provided source digest. The analysis indicates that the supplied academic sources are metadata records whose titles and snippets do not contain specific details or content directly related to 'Langchain'.",
+          "keyFindings": [
+            "The provided sources (Source 1, Source 2, Source 3) are identified as scholarly metadata records.",
+            "The titles of the academic sources, such as 'Let me tell you about “Crazy Nick.”', 'Tell Me about It', and 'Don’t Tell Me about Love', do not explicitly mention or describe 'Langchain'.",
+            "The snippets associated with each source uniformly state 'Scholarly metadata record related to the research query', without offering substantive content about 'Langchain'.",
+            "No direct information concerning the definition, functionality, or applications of 'Langchain' could be extracted from the provided source digest."
+          ],
+          "conclusion": "Based strictly on the provided source digest, specific details or descriptive content about 'Langchain' cannot be synthesized. The sources are limited to metadata records without substantive information on the query topic.",
+          "followUpQuestions": [
+            "What specific aspects or functionalities of 'Langchain' are of primary interest for this research?",
+            "Are there additional or alternative academic sources available that directly discuss 'Langchain' in detail?",
+            "What is the intended context or application area for 'Langchain' within the scope of this research query?"
+          ],
+          "sources": [
+            {
+              "title": "Let me tell you about “Crazy Nick.”",
+              "url": "https://doi.org/10.14325/mississippi/9781496854711.002.0005",
+              "snippet": "Scholarly metadata record related to the research query.",
+              "domain": "doi.org",
+              "sourceType": "academic",
+              "credibility": 0.88,
+              "publishedAt": "2025-09-25T14:16:30Z"
+            },
+            {
+              "title": "Tell Me about It",
+              "url": "https://doi.org/10.2307/j.ctt20h6rzm.11",
+              "snippet": "Scholarly metadata record related to the research query.",
+              "domain": "doi.org",
+              "sourceType": "academic",
+              "credibility": 0.88,
+              "publishedAt": "2018-02-11T20:28:17Z"
+            },
+            {
+              "title": "Don’t Tell Me about Love",
+              "url": "https://doi.org/10.2307/j.ctt1ffjj52.34",
+              "snippet": "Scholarly metadata record related to the research query.",
+              "domain": "doi.org",
+              "sourceType": "academic",
+              "credibility": 0.88,
+              "publishedAt": "2017-09-07T20:50:43Z"
+            }
+          ],
+          "generatedAt": "2026-04-18T07:23:07.883Z"
+        },
+        "workflow": {
+          "searchQuery": "tell me about langchain",
+          "sourcesAnalyzed": 3,
+          "warnings": [],
+          "usedSessionMemory": false,
+          "modelUsed": "gemini-2.5-flash",
+          "stages": [
+            "source-discovery",
+            "synthesis"
+          ]
+        }
+      }
+    ],
+    "0eb1111e-a7d8-4a08-b28d-68f34e25eefe": [
+      {
+        "sessionId": "research_1776526967597",
+        "query": "Sustainable aviation fuel adoption barriers in developing economies",
+        "report": {
+          "title": "Review of Available Literature on Sustainable Aviation Fuel Adoption Barriers in Developing Economies",
+          "abstract": "This report synthesizes information from provided academic sources concerning Sustainable Aviation Fuel (SAF) adoption barriers in developing economies. While the sources highlight SAF's environmental potential and technical research advancements, and discuss general technology adoption barriers in developing economies for other sectors, they do not directly detail specific obstacles to SAF implementation in these regions.",
+          "keyFindings": [
+            "Sustainable Aviation Fuels (SAF) are recognized for their potential to reduce emissions and environmental impact (Source 1).",
+            "Machine learning models are being developed to predict SAF physiochemical properties, aiming to accelerate research and identification of viable fuels (Source 1).",
+            "Academic literature identifies various barriers to technology adoption in developing economies, as observed in the contexts of cryptocurrency and Information and Communication Technology (ICT) (Sources 4, 5).",
+            "Roadmaps for SAF integration and carbon emission reduction strategies have been explored for specific applications, such as offshore energy air travel, but without detailing barriers specific to developing economies (Source 6)."
+          ],
+          "conclusion": "The reviewed academic sources indicate the environmental importance and ongoing technical development of Sustainable Aviation Fuels. While general challenges to technology adoption in developing economies are acknowledged in other domains, the provided literature does not specifically delineate the barriers to SAF adoption within these economies. This suggests a gap in the current evidence base regarding this particular intersection.",
+          "followUpQuestions": [
+            "What are the primary economic, logistical, and policy-related barriers specifically impeding Sustainable Aviation Fuel adoption in developing economies?",
+            "How can insights from successful technology adoption in other sectors within developing economies be leveraged to overcome challenges for SAF?",
+            "What role can international development organizations and policy frameworks play in addressing SAF adoption barriers unique to developing economies?"
+          ],
+          "sources": [
+            {
+              "title": "A Structured Framework for Predicting Sustainable Aviation Fuel Properties using Liquid-Phase FTIR and Machine Learning",
+              "url": "http://arxiv.org/abs/2408.01530v1",
+              "snippet": "Sustainable aviation fuels have the potential for reducing emissions and environmental impact. To help identify viable sustainable aviation fuels and accelerate research, several machine learning models have been developed to predict relevant physiochemical pr",
+              "domain": "arxiv.org",
+              "sourceType": "academic",
+              "credibility": 0.92,
+              "publishedAt": "2024-08-02T18:43:22Z"
+            },
+            {
+              "title": "Predicting fuel research octane number using Fourier-transform infrared absorption spectra of neat hydrocarbons",
+              "url": "http://arxiv.org/abs/1606.07122v1",
+              "snippet": "Liquid transportation fuels require costly and time-consuming tests to characterize metrics, such as Research Octane Number (RON) for gasoline. If fuel sale restrictions requiring use of standard Cooperative Fuel Research testing procedures do not apply, these",
+              "domain": "arxiv.org",
+              "sourceType": "academic",
+              "credibility": 0.92,
+              "publishedAt": "2016-06-22T21:49:24Z"
+            },
+            {
+              "title": "Environmental sustainability in basic research: a perspective from HECAP+",
+              "url": "http://arxiv.org/abs/2306.02837v2",
+              "snippet": "The climate crisis and the degradation of the world's ecosystems require humanity to take immediate action. The international scientific community has a responsibility to limit the negative environmental impacts of basic research. The HECAP+ communities (High ",
+              "domain": "arxiv.org",
+              "sourceType": "academic",
+              "credibility": 0.92,
+              "publishedAt": "2023-06-05T12:35:49Z"
+            },
+            {
+              "title": "Cryptocurrency Adoption Barriers in Developing Economies: A Literature Review",
+              "url": "https://doi.org/10.2139/ssrn.5193998",
+              "snippet": "Scholarly metadata record related to the research query.",
+              "domain": "doi.org",
+              "sourceType": "academic",
+              "credibility": 0.88,
+              "publishedAt": "2025-06-02T21:54:47Z"
+            },
+            {
+              "title": "ICT Adoption in Developing Economies: Barriers and Opportunities",
+              "url": "https://doi.org/10.20944/preprints202506.0042.v1",
+              "snippet": "Information and Communication Technology (ICT) has emerged as a vital enabler of economic development, education, and innovation in the modern world. However, in many developing economies, the adoption of ICT remains limited and uneven. This paper investigates",
+              "domain": "doi.org",
+              "sourceType": "academic",
+              "credibility": 0.88,
+              "publishedAt": "2025-06-03T01:21:41Z"
+            },
+            {
+              "title": "Scaling Sustainable Travel in Offshore Energy: A Roadmap to Sustainable Aviation Fuel (SAF) Adoption",
+              "url": "https://doi.org/10.2118/226739-ms",
+              "snippet": "This manuscript explores how Sustainable Aviation Fuel (SAF) can reduce carbon emissions from offshore energy air travel. It provides a practical roadmap for integrating SAF into crew rotations and executive travel, leveraging insights from the ATPI Halo-Neste",
+              "domain": "doi.org",
+              "sourceType": "academic",
+              "credibility": 0.88,
+              "publishedAt": "2025-09-02T00:03:38Z"
+            }
+          ],
+          "generatedAt": "2026-04-18T15:44:50.509Z"
+        },
+        "workflow": {
+          "searchQuery": "Sustainable aviation fuel adoption barriers in developing economies",
+          "sourcesAnalyzed": 6,
+          "warnings": [],
+          "usedSessionMemory": true,
+          "modelUsed": "gemini-2.5-flash",
+          "stages": [
+            "source-discovery",
+            "synthesis"
+          ]
+        }
+      },
+      {
+        "sessionId": "research_1776526967597",
+        "query": "Sustainable aviation fuel adoption barriers in developing economies",
+        "report": {
+          "title": "Research Brief: Sustainable aviation fuel adoption barriers in developing economies",
+          "abstract": "Sustainable aviation fuel adoption barriers in developing economies spans background concepts, current literature, and practical adoption signals. This brief organizes the topic into a research-friendly summary so the user can move from overview to focused literature review.",
+          "keyFindings": [
+            "Sustainable aviation fuel adoption barriers in developing economies should be studied using both foundational references and recent academic work.",
+            "Recent papers and scholarly records suggest the field is evolving fast, so narrowing the topic by application area will improve report quality.",
+            "A strong presentation should compare definitions, methods, evidence quality, and real-world limitations rather than relying on a single source type.",
+            "The current sources indicate that the most useful next step is a scoped question with domain, geography, or time boundaries."
+          ],
+          "sources": [
+            {
+              "title": "A Structured Framework for Predicting Sustainable Aviation Fuel Properties using Liquid-Phase FTIR and Machine Learning",
+              "url": "http://arxiv.org/abs/2408.01530v1",
+              "snippet": "Sustainable aviation fuels have the potential for reducing emissions and environmental impact. To help identify viable sustainable aviation fuels and accelerate research, several machine learning models have been developed to predict relevant physiochemical pr",
+              "domain": "arxiv.org",
+              "sourceType": "academic",
+              "credibility": 0.92,
+              "publishedAt": "2024-08-02T18:43:22Z"
+            },
+            {
+              "title": "Predicting fuel research octane number using Fourier-transform infrared absorption spectra of neat hydrocarbons",
+              "url": "http://arxiv.org/abs/1606.07122v1",
+              "snippet": "Liquid transportation fuels require costly and time-consuming tests to characterize metrics, such as Research Octane Number (RON) for gasoline. If fuel sale restrictions requiring use of standard Cooperative Fuel Research testing procedures do not apply, these",
+              "domain": "arxiv.org",
+              "sourceType": "academic",
+              "credibility": 0.92,
+              "publishedAt": "2016-06-22T21:49:24Z"
+            },
+            {
+              "title": "Environmental sustainability in basic research: a perspective from HECAP+",
+              "url": "http://arxiv.org/abs/2306.02837v2",
+              "snippet": "The climate crisis and the degradation of the world's ecosystems require humanity to take immediate action. The international scientific community has a responsibility to limit the negative environmental impacts of basic research. The HECAP+ communities (High ",
+              "domain": "arxiv.org",
+              "sourceType": "academic",
+              "credibility": 0.92,
+              "publishedAt": "2023-06-05T12:35:49Z"
+            },
+            {
+              "title": "Cryptocurrency Adoption Barriers in Developing Economies: A Literature Review",
+              "url": "https://doi.org/10.2139/ssrn.5193998",
+              "snippet": "Scholarly metadata record related to the research query.",
+              "domain": "doi.org",
+              "sourceType": "academic",
+              "credibility": 0.88,
+              "publishedAt": "2025-06-02T21:54:47Z"
+            },
+            {
+              "title": "ICT Adoption in Developing Economies: Barriers and Opportunities",
+              "url": "https://doi.org/10.20944/preprints202506.0042.v1",
+              "snippet": "Information and Communication Technology (ICT) has emerged as a vital enabler of economic development, education, and innovation in the modern world. However, in many developing economies, the adoption of ICT remains limited and uneven. This paper investigates",
+              "domain": "doi.org",
+              "sourceType": "academic",
+              "credibility": 0.88,
+              "publishedAt": "2025-06-03T01:21:41Z"
+            },
+            {
+              "title": "Scaling Sustainable Travel in Offshore Energy: A Roadmap to Sustainable Aviation Fuel (SAF) Adoption",
+              "url": "https://doi.org/10.2118/226739-ms",
+              "snippet": "This manuscript explores how Sustainable Aviation Fuel (SAF) can reduce carbon emissions from offshore energy air travel. It provides a practical roadmap for integrating SAF into crew rotations and executive travel, leveraging insights from the ATPI Halo-Neste",
+              "domain": "doi.org",
+              "sourceType": "academic",
+              "credibility": 0.88,
+              "publishedAt": "2025-09-02T00:03:38Z"
+            }
+          ],
+          "conclusion": "This initial research pass shows that Sustainable aviation fuel adoption barriers in developing economies is broad enough to support a meaningful final report, but the clearest findings will come from narrowing the question and comparing a smaller set of high-quality sources in depth.",
+          "followUpQuestions": [
+            "Which recent papers define the strongest methods in Sustainable aviation fuel adoption barriers in developing economies?",
+            "What evaluation metrics are commonly used for Sustainable aviation fuel adoption barriers in developing economies?",
+            "What limitations or ethical risks appear most often in Sustainable aviation fuel adoption barriers in developing economies?"
+          ],
+          "generatedAt": "2026-04-18T15:43:33.575Z"
+        },
+        "workflow": {
+          "searchQuery": "Sustainable aviation fuel adoption barriers in developing economies",
+          "sourcesAnalyzed": 6,
+          "warnings": [
+            "Gemini synthesis failed, so the report used a local fallback template."
+          ],
+          "usedSessionMemory": true,
+          "modelUsed": "gemini-2.5-flash",
+          "stages": [
+            "source-discovery",
+            "synthesis"
+          ]
+        }
+      },
+      {
+        "sessionId": "research_1776526675166",
+        "query": "explain data structures and alogorithims\n",
+        "report": {
+          "title": "An Examination of Data and Algorithmic Concepts in Distributed Systems and Scientific Research",
+          "abstract": "This report synthesizes information from various academic sources to explore the concepts of data and algorithms. While a general definition of data structures and algorithms is not explicitly provided, the sources highlight their application in specific contexts, such as distributed optimization, Byzantine-resilient systems, and the analysis of scientific data. The report identifies instances where data distribution, computational processes, and various structures are discussed within specialized research domains.",
+          "keyFindings": [
+            "Data and computation can be distributed among worker machines, some of which may be corrupt, as seen in Byzantine-resilient distributed optimization (Source 1).",
+            "Distributed stochastic gradient descent (SGD) is an algorithmic approach studied in master-worker architectures, particularly under Byzantine attacks and with heterogeneous data models (Source 2).",
+            "Scientific research involves the use of diverse datasets, such as H II starburst galaxy apparent magnitude versus redshift data for constraining cosmological models (Source 3).",
+            "The term \"structures\" is used in scientific contexts to describe physical arrangements, such as crystal structures of porins (Source 4) and homodimer structures of protein subunits (Source 5), which explain functional properties."
+          ],
+          "conclusion": "The provided academic sources illustrate the practical application of data and specific algorithms (like SGD) within specialized fields such as distributed computing and scientific analysis. While they do not offer a foundational explanation of \"data structures\" or \"algorithms\" as general computer science concepts, they demonstrate how data is managed, distributed, and processed, and how specific computational methods are employed to address complex problems, often in the presence of challenges like adversarial attacks or data heterogeneity. The term \"structure\" also appears in biological and physical contexts, referring to physical arrangements rather than abstract data organization.",
+          "followUpQuestions": [
+            "What are the fundamental definitions and classifications of data structures in computer science?",
+            "How do various types of algorithms (e.g., sorting, searching, graph algorithms) function and what are their typical applications?",
+            "What are the common challenges and solutions for managing and processing large-scale heterogeneous data in distributed systems beyond Byzantine resilience?"
+          ],
+          "sources": [
+            {
+              "title": "Data Encoding for Byzantine-Resilient Distributed Optimization",
+              "url": "http://arxiv.org/abs/1907.02664v2",
+              "snippet": "We study distributed optimization in the presence of Byzantine adversaries, where both data and computation are distributed among $m$ worker machines, $t$ of which may be corrupt. The compromised nodes may collaboratively and arbitrarily deviate from their pre",
+              "domain": "arxiv.org",
+              "sourceType": "academic",
+              "credibility": 0.92,
+              "publishedAt": "2019-07-05T03:31:43Z"
+            },
+            {
+              "title": "Byzantine-Resilient SGD in High Dimensions on Heterogeneous Data",
+              "url": "http://arxiv.org/abs/2005.07866v1",
+              "snippet": "We study distributed stochastic gradient descent (SGD) in the master-worker architecture under Byzantine attacks. We consider the heterogeneous data model, where different workers may have different local datasets, and we do not make any probabilistic assumpti",
+              "domain": "arxiv.org",
+              "sourceType": "academic",
+              "credibility": 0.92,
+              "publishedAt": "2020-05-16T04:15:27Z"
+            },
+            {
+              "title": "Constraints on dark energy from H II starburst galaxy apparent magnitude versus redshift data",
+              "url": "http://arxiv.org/abs/1110.5626v1",
+              "snippet": "In this paper we use H II starburst galaxy apparent magnitude versus redshift data from Siegel et al. (2005) to constrain dark energy cosmological model parameters. These constraints are generally consistent with those derived using other data sets, but are no",
+              "domain": "arxiv.org",
+              "sourceType": "academic",
+              "credibility": 0.92,
+              "publishedAt": "2011-10-25T19:44:22Z"
+            },
+            {
+              "title": "CRYSTAL STRUCTURES EXPLAIN FUNCTIONAL PROPERTIES OF TWO E. COLI PORINS",
+              "url": "https://doi.org/10.2210/pdb1pho/pdb",
+              "snippet": "Scholarly metadata record related to the research query.",
+              "domain": "doi.org",
+              "sourceType": "academic",
+              "credibility": 0.88,
+              "publishedAt": "2006-01-04T22:49:49Z"
+            },
+            {
+              "title": "Parallel homodimer structures of the extracellular domains of the voltage-gated sodium channel beta4 subunit explain its role in cell-cell adhesion",
+              "url": "https://doi.org/10.2210/pdb5xax/pdb",
+              "snippet": "Scholarly metadata record related to the research query.",
+              "domain": "doi.org",
+              "sourceType": "academic",
+              "credibility": 0.88,
+              "publishedAt": "2017-07-04T18:04:14Z"
+            },
+            {
+              "title": "Supplemental Information 1: Raw Data geometry explain fish assemblage",
+              "url": "https://doi.org/10.7717/peerj.1861/supp-1",
+              "snippet": "Scholarly metadata record related to the research query.",
+              "domain": "doi.org",
+              "sourceType": "academic",
+              "credibility": 0.88,
+              "publishedAt": "2016-04-04T04:05:55Z"
+            }
+          ],
+          "generatedAt": "2026-04-18T15:39:50.201Z"
+        },
+        "workflow": {
+          "searchQuery": "explain data structures and alogorithims\n",
+          "sourcesAnalyzed": 6,
+          "warnings": [],
+          "usedSessionMemory": true,
+          "modelUsed": "gemini-2.5-flash",
+          "stages": [
+            "source-discovery",
+            "synthesis"
+          ]
+        }
+      },
+      {
+        "sessionId": "research_1776526675166",
+        "query": "explain python",
+        "report": {
+          "title": "An Overview of Python's Applications and Implementations",
+          "abstract": "Python is a versatile programming language widely adopted across various domains, including data analysis, scientific computing, and specialized hardware implementations. Its popularity stems from its intuitive interfaces and extensive libraries, facilitating complex tasks from social network analysis to modeling matter under extreme conditions.",
+          "keyFindings": [
+            "Python, particularly with the Pandas library, is a popular tool for data analysis and exploration, enabling users to query, manipulate, and visualize data.",
+            "Python is utilized in social network analysis, where it is applied to investigate social structures using networks and graph theory.",
+            "Python implementations exist for specialized hardware, such as ePython for the many-core Epiphany coprocessor, benefiting high-performance computing (HPC) education and prototyping due to its low power and parallel core access.",
+            "Python is used in scientific computing, exemplified by atoMEC, an open-source average-atom Python code, which is an important tool for studying matter under extreme conditions like those found in planetary cores or during inertial confinement fusion."
+          ],
+          "conclusion": "Python demonstrates significant utility across diverse academic and technical fields, serving as a foundational language for data analysis, social network investigation, scientific modeling, and specialized hardware programming. Its adaptability and rich ecosystem of libraries make it a powerful tool for researchers and developers.",
+          "followUpQuestions": [
+            "What specific features of Python contribute to its ease of use in data manipulation compared to other programming languages?",
+            "How does the performance of ePython on the Epiphany coprocessor compare to other parallel programming approaches for similar architectures?",
+            "What are the limitations or challenges of using Python for average-atom models in extreme conditions, and how are they addressed?"
+          ],
+          "sources": [
+            {
+              "title": "Social Network Analysis: From Graph Theory to Applications with Python",
+              "url": "http://arxiv.org/abs/2102.10014v1",
+              "snippet": "Social network analysis is the process of investigating social structures through the use of networks and graph theory. It combines a variety of techniques for analyzing the structure of social networks as well as theories that aim at explaining the underlying",
+              "domain": "arxiv.org",
+              "sourceType": "academic",
+              "credibility": 0.92,
+              "publishedAt": "2021-02-05T18:46:02Z"
+            },
+            {
+              "title": "ePython: An implementation of Python for the many-core Epiphany coprocessor",
+              "url": "http://arxiv.org/abs/2010.14827v1",
+              "snippet": "The Epiphany is a many-core, low power, low on-chip memory architecture and one can very cheaply gain access to a number of parallel cores which is beneficial for HPC education and prototyping. The very low power nature of these architectures also means that t",
+              "domain": "arxiv.org",
+              "sourceType": "academic",
+              "credibility": 0.92,
+              "publishedAt": "2020-10-28T09:01:27Z"
+            },
+            {
+              "title": "atoMEC: An open-source average-atom Python code",
+              "url": "http://arxiv.org/abs/2206.01074v2",
+              "snippet": "Average-atom models are an important tool in studying matter under extreme conditions, such as those conditions experienced in planetary cores, brown and white dwarfs, and during inertial confinement fusion. In the right context, average-atom models can yield ",
+              "domain": "arxiv.org",
+              "sourceType": "academic",
+              "credibility": 0.92,
+              "publishedAt": "2022-06-02T14:41:22Z"
+            },
+            {
+              "title": "PD-Explain: A Unified Python-Native Framework for Query Explanations Over DataFrames",
+              "url": "https://doi.org/10.14778/3685800.3685903",
+              "snippet": "Interfaces that rely on the Python programming language have become a popular tool for data analysis and exploration. In particular, the Pandas library allows users to query, manipulate, and visualize data in an easy and intuitive manner. However, users who pe",
+              "domain": "doi.org",
+              "sourceType": "academic",
+              "credibility": 0.88,
+              "publishedAt": "2024-11-08T17:25:21Z"
+            },
+            {
+              "title": "Extending Python",
+              "url": "https://doi.org/10.1007/978-1-4302-0072-7_17",
+              "snippet": "Scholarly metadata record related to the research query.",
+              "domain": "doi.org",
+              "sourceType": "academic",
+              "credibility": 0.88,
+              "publishedAt": "2006-11-07T03:31:01Z"
+            },
+            {
+              "title": "Embedded Python",
+              "url": "https://doi.org/10.1007/978-1-4842-7774-4_5",
+              "snippet": "Scholarly metadata record related to the research query.",
+              "domain": "doi.org",
+              "sourceType": "academic",
+              "credibility": 0.88,
+              "publishedAt": "2021-11-20T09:02:34Z"
+            }
+          ],
+          "generatedAt": "2026-04-18T15:38:48.669Z"
+        },
+        "workflow": {
+          "searchQuery": "explain python",
+          "sourcesAnalyzed": 6,
+          "warnings": [],
+          "usedSessionMemory": false,
+          "modelUsed": "gemini-2.5-flash",
+          "stages": [
+            "source-discovery",
+            "synthesis"
+          ]
+        }
+      }
+    ]
+  }
+}
