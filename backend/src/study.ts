@@ -1,11 +1,11 @@
-import { Router, Response } from 'express';
+import { Router, Request, Response } from 'express';
 import { authenticateToken } from './auth';
-import { AuthRequest, StudyPlan } from './types';
+import { StudyPlan } from './types';
 import { studyEngine } from './services/studyEngine';
 
 const router = Router();
 
-router.post('/generate-plan', authenticateToken, async (req: AuthRequest, res: Response) => {
+router.post('/generate-plan', authenticateToken, async (req: Request, res: Response) => {
   const plan: StudyPlan = req.body;
   
   try {

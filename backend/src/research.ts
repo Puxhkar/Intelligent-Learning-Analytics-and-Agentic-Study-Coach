@@ -1,11 +1,11 @@
-import { Router, Response } from 'express';
+import { Router, Request, Response } from 'express';
 import { authenticateToken } from './auth';
-import { AuthRequest, ResearchQuery } from './types';
+import { ResearchQuery } from './types';
 import { researchEngine } from './services/researchEngine';
 
 const router = Router();
 
-router.post('/query', authenticateToken, async (req: AuthRequest, res: Response) => {
+router.post('/query', authenticateToken, async (req: Request, res: Response) => {
   const query: ResearchQuery = req.body;
   
   try {

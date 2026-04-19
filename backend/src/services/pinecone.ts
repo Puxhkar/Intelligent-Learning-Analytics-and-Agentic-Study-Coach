@@ -6,7 +6,7 @@ const pc = new Pinecone({
 
 export const upsertDocument = async (id: string, values: number[], metadata: any) => {
   const index = pc.index(process.env.PINECONE_INDEX || 'study-coach');
-  await index.upsert([{ id, values, metadata }]);
+  await index.upsert({ records: [{ id, values, metadata }] } as any);
 };
 
 export const queryKnowledgeBase = async (vector: number[], topK: number = 5) => {
