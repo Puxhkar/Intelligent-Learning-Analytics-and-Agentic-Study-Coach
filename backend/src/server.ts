@@ -3,7 +3,7 @@ import cors from 'cors';
 import dotenv from 'dotenv';
 import authRoutes from './auth';
 import researchRoutes from './research';
-import studyRoutes from './study';
+import subjectsRoutes, { askRouter } from './subjects';
 
 dotenv.config();
 
@@ -21,15 +21,14 @@ app.use(
     credentials: true
   })
 );
-app.use(express.json());
+app.use(express.json({ limit: '5mb' }));
 
-// Routes
 app.use('/api/auth', authRoutes);
 app.use('/api/research', researchRoutes);
-app.use('/api/study', studyRoutes);
+app.use('/api/subjects', subjectsRoutes);
+app.use('/api/ask', askRouter);
 
-// Health check
-app.get('/health', (req, res) => {
+app.get('/health', (_req, res) => {
   res.json({ status: 'ok', timestamp: new Date().toISOString() });
 });
 
