@@ -1153,6 +1153,10 @@ button {
   grid-template-columns: 0.9fr 1.1fr;
 }
 
+.dashboard-panel-grid.quiz-layout {
+  grid-template-columns: 1fr;
+}
+
 .dashboard-card.large {
   min-height: 100%;
 }

@@ -500,7 +500,7 @@ export default function StudyPage() {
                         ) : null}
 
                         {activeTab === "study" ? (
-                            <div className="dashboard-panel-grid">
+                            <div className="dashboard-panel-grid quiz-layout">
                                 <section className="dashboard-card yellow-paper">
                                     <div className="panel-title">Quiz Generator</div>
                                     <p className="muted">Build revision questions directly from the currently selected subject.</p>
